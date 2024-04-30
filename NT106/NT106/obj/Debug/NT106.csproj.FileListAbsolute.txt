@@ -1,0 +1,15 @@
+E:\New folder\NT106\NT106\bin\Debug\Database1.mdf
+E:\New folder\NT106\NT106\bin\Debug\Database1_log.ldf
+E:\New folder\NT106\NT106\bin\Debug\NT106.exe.config
+E:\New folder\NT106\NT106\bin\Debug\NT106.exe
+E:\New folder\NT106\NT106\bin\Debug\NT106.pdb
+E:\New folder\NT106\NT106\obj\Debug\NT106.csproj.AssemblyReference.cache
+E:\New folder\NT106\NT106\obj\Debug\NT106.Properties.Resources.resources
+E:\New folder\NT106\NT106\obj\Debug\NT106.csproj.GenerateResource.cache
+E:\New folder\NT106\NT106\obj\Debug\NT106.csproj.CoreCompileInputs.cache
+E:\New folder\NT106\NT106\obj\Debug\NT106.exe
+E:\New folder\NT106\NT106\obj\Debug\NT106.pdb
+E:\New folder\NT106\NT106\obj\Debug\NT106.Form_Game.resources
+E:\New folder\NT106\NT106\obj\Debug\NT106.Reset_Pass.resources
+E:\New folder\NT106\NT106\obj\Debug\NT106.Sign_In.resources
+E:\New folder\NT106\NT106\obj\Debug\NT106.Sign_Up.resources
