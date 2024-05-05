@@ -62,11 +62,35 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Connection.cs" />
+    <Compile Include="Form_Account.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Account.Designer.cs">
+      <DependentUpon>Form_Account.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_BXH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_BXH.Designer.cs">
+      <DependentUpon>Form_BXH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Event.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Event.Designer.cs">
+      <DependentUpon>Form_Event.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_Game.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form_Game.Designer.cs">
       <DependentUpon>Form_Game.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomePage.Designer.cs">
+      <DependentUpon>HomePage.cs</DependentUpon>
     </Compile>
     <Compile Include="Modify.cs" />
     <Compile Include="Reset_Pass.cs">
@@ -90,8 +114,20 @@
       <DependentUpon>Sign_Up.cs</DependentUpon>
     </Compile>
     <Compile Include="User.cs" />
+    <EmbeddedResource Include="Form_Account.resx">
+      <DependentUpon>Form_Account.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_BXH.resx">
+      <DependentUpon>Form_BXH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Event.resx">
+      <DependentUpon>Form_Event.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form_Game.resx">
       <DependentUpon>Form_Game.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePage.resx">
+      <DependentUpon>HomePage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reset_Pass.resx">
       <DependentUpon>Reset_Pass.cs</DependentUpon>
@@ -145,6 +181,15 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\event.png" />
+    <None Include="Resources\profile-user %284%29.png" />
+    <None Include="Resources\mail.png" />
+    <None Include="Resources\settings.png" />
+    <None Include="Resources\star.png" />
+    <None Include="Resources\reward.png" />
+    <None Include="Resources\trophy.png" />
+    <None Include="Resources\calendar.png" />
+    <None Include="Resources\profile-user %282%29.png" />
     <None Include="Resources\console.png" />
     <None Include="Resources\OIP.jpg" />
     <None Include="Resources\OIP %281%29.jpg" />
