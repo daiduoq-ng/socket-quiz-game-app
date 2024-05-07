@@ -49,7 +49,7 @@
             this.lbDoiAvt.AutoSize = true;
             this.lbDoiAvt.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbDoiAvt.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.lbDoiAvt.Location = new System.Drawing.Point(329, 152);
+            this.lbDoiAvt.Location = new System.Drawing.Point(319, 152);
             this.lbDoiAvt.Name = "lbDoiAvt";
             this.lbDoiAvt.Size = new System.Drawing.Size(172, 20);
             this.lbDoiAvt.TabIndex = 1;

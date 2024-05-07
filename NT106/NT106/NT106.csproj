@@ -80,6 +80,12 @@
     <Compile Include="Form_Event.Designer.cs">
       <DependentUpon>Form_Event.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_Event1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Event1.Designer.cs">
+      <DependentUpon>Form_Event1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_Game.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +120,14 @@
       <DependentUpon>Sign_Up.cs</DependentUpon>
     </Compile>
     <Compile Include="User.cs" />
+    <Compile Include="UserControls\RoundedRectangleF.cs" />
+    <Compile Include="UserControls\TextBoxElipse.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControls\TextBoxElipse.Designer.cs">
+      <DependentUpon>TextBoxElipse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Transparenter.cs" />
     <EmbeddedResource Include="Form_Account.resx">
       <DependentUpon>Form_Account.cs</DependentUpon>
     </EmbeddedResource>
@@ -122,6 +136,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Event.resx">
       <DependentUpon>Form_Event.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Event1.resx">
+      <DependentUpon>Form_Event1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Game.resx">
       <DependentUpon>Form_Game.cs</DependentUpon>

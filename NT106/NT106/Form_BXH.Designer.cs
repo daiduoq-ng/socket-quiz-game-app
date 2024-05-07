@@ -73,7 +73,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.label2.Location = new System.Drawing.Point(289, 9);
+            this.label2.Location = new System.Drawing.Point(277, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(301, 38);
             this.label2.TabIndex = 4;
@@ -456,6 +456,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MintCream;
             this.ClientSize = new System.Drawing.Size(829, 467);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.label3);

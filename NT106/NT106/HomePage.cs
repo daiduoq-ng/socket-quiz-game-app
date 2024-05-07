@@ -13,11 +13,12 @@ namespace NT106
     public partial class HomePage : Form
     {
         private Form CurrentFormChild;
+        
         public HomePage()
         {
             InitializeComponent();
         }
-        private void OpenChildForm(Form ChildForm)
+        public void OpenChildForm(Form ChildForm)
         {
             if (CurrentFormChild != null) CurrentFormChild.Close();
             CurrentFormChild = ChildForm;
@@ -36,7 +37,8 @@ namespace NT106
 
         private void btnEvent_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Form_Event());
+            Form_Event formEvent = new Form_Event(this);
+            OpenChildForm(formEvent);
         }
 
         private void btnBXH_Click(object sender, EventArgs e)

@@ -12,14 +12,20 @@ namespace NT106
 {
     public partial class Form_Event : Form
     {
-        public Form_Event()
+        private HomePage homePage;
+
+        public Form_Event(HomePage homePage)
         {
             InitializeComponent();
+            this.homePage = homePage;
         }
 
         private void lbEvent1_Click(object sender, EventArgs e)
         {
-
+            Form_Event1 form_Event1 = new Form_Event1();
+            homePage.OpenChildForm(form_Event1);
         }
+
+       
     }
 }
