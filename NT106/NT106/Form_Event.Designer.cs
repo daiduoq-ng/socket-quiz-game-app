@@ -30,9 +30,9 @@
         {
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.lbEvent1 = new System.Windows.Forms.Label();
-            this.lbEvent2 = new System.Windows.Forms.Label();
             this.lbEvent3 = new System.Windows.Forms.Label();
+            this.lbEvent2 = new System.Windows.Forms.Label();
+            this.lbEvent1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -45,7 +45,7 @@
             this.label2.ForeColor = System.Drawing.Color.MediumSeaGreen;
             this.label2.Location = new System.Drawing.Point(208, 56);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(326, 38);
+            this.label2.Size = new System.Drawing.Size(313, 37);
             this.label2.TabIndex = 3;
             this.label2.Text = "Sự Kiện Sắp Diễn Ra";
             // 
@@ -60,19 +60,19 @@
             this.panel1.Size = new System.Drawing.Size(716, 286);
             this.panel1.TabIndex = 5;
             // 
-            // lbEvent1
+            // lbEvent3
             // 
-            this.lbEvent1.AutoSize = true;
-            this.lbEvent1.BackColor = System.Drawing.Color.MintCream;
-            this.lbEvent1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbEvent1.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbEvent1.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.lbEvent1.Location = new System.Drawing.Point(102, 17);
-            this.lbEvent1.Name = "lbEvent1";
-            this.lbEvent1.Size = new System.Drawing.Size(520, 66);
-            this.lbEvent1.TabIndex = 6;
-            this.lbEvent1.Text = "Cuộc thi tìm hiểu ...\r\nThời gian bắt đầu: 21h30 ngày 31/05/2024";
-            this.lbEvent1.Click += new System.EventHandler(this.lbEvent1_Click);
+            this.lbEvent3.AutoSize = true;
+            this.lbEvent3.BackColor = System.Drawing.Color.MintCream;
+            this.lbEvent3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbEvent3.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbEvent3.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.lbEvent3.Location = new System.Drawing.Point(102, 189);
+            this.lbEvent3.Name = "lbEvent3";
+            this.lbEvent3.Size = new System.Drawing.Size(520, 66);
+            this.lbEvent3.TabIndex = 8;
+            this.lbEvent3.Text = "Cuộc thi tìm hiểu ...\r\nThời gian bắt đầu: 21h30 ngày 31/05/2024";
+            this.lbEvent3.Click += new System.EventHandler(this.lbEvent1_Click);
             // 
             // lbEvent2
             // 
@@ -86,19 +86,21 @@
             this.lbEvent2.Size = new System.Drawing.Size(520, 66);
             this.lbEvent2.TabIndex = 7;
             this.lbEvent2.Text = "Cuộc thi tìm hiểu ...\r\nThời gian bắt đầu: 21h30 ngày 31/05/2024";
+            this.lbEvent2.Click += new System.EventHandler(this.lbEvent1_Click);
             // 
-            // lbEvent3
+            // lbEvent1
             // 
-            this.lbEvent3.AutoSize = true;
-            this.lbEvent3.BackColor = System.Drawing.Color.MintCream;
-            this.lbEvent3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbEvent3.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbEvent3.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.lbEvent3.Location = new System.Drawing.Point(102, 189);
-            this.lbEvent3.Name = "lbEvent3";
-            this.lbEvent3.Size = new System.Drawing.Size(520, 66);
-            this.lbEvent3.TabIndex = 8;
-            this.lbEvent3.Text = "Cuộc thi tìm hiểu ...\r\nThời gian bắt đầu: 21h30 ngày 31/05/2024";
+            this.lbEvent1.AutoSize = true;
+            this.lbEvent1.BackColor = System.Drawing.Color.MintCream;
+            this.lbEvent1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbEvent1.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbEvent1.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.lbEvent1.Location = new System.Drawing.Point(102, 17);
+            this.lbEvent1.Name = "lbEvent1";
+            this.lbEvent1.Size = new System.Drawing.Size(520, 66);
+            this.lbEvent1.TabIndex = 6;
+            this.lbEvent1.Text = "Cuộc thi tìm hiểu ...\r\nThời gian bắt đầu: 21h30 ngày 31/05/2024";
+            this.lbEvent1.Click += new System.EventHandler(this.lbEvent1_Click);
             // 
             // pictureBox1
             // 
