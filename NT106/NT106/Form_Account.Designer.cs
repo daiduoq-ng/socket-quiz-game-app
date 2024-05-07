@@ -38,22 +38,24 @@
             this.lbBDay = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pbAvt = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbAvt)).BeginInit();
             this.SuspendLayout();
             // 
             // lbDoiAvt
             // 
             this.lbDoiAvt.AutoSize = true;
+            this.lbDoiAvt.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbDoiAvt.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbDoiAvt.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.lbDoiAvt.Location = new System.Drawing.Point(319, 152);
+            this.lbDoiAvt.Location = new System.Drawing.Point(329, 152);
             this.lbDoiAvt.Name = "lbDoiAvt";
             this.lbDoiAvt.Size = new System.Drawing.Size(172, 20);
             this.lbDoiAvt.TabIndex = 1;
             this.lbDoiAvt.Text = "Thay đổi ảnh đại diện";
+            this.lbDoiAvt.Click += new System.EventHandler(this.lbDoiAvt_Click);
             // 
             // lbHoTen
             // 
@@ -95,7 +97,7 @@
             this.label5.ForeColor = System.Drawing.Color.MediumSeaGreen;
             this.label5.Location = new System.Drawing.Point(409, 244);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(25, 38);
+            this.label5.Size = new System.Drawing.Size(23, 37);
             this.label5.TabIndex = 5;
             this.label5.Text = "|";
             // 
@@ -141,15 +143,15 @@
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
             // 
-            // pictureBox1
+            // pbAvt
             // 
-            this.pictureBox1.BackgroundImage = global::NT106.Properties.Resources.profile_user__4_;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(360, 43);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(115, 106);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.pbAvt.BackgroundImage = global::NT106.Properties.Resources.profile_user__4_;
+            this.pbAvt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pbAvt.Location = new System.Drawing.Point(360, 43);
+            this.pbAvt.Name = "pbAvt";
+            this.pbAvt.Size = new System.Drawing.Size(115, 106);
+            this.pbAvt.TabIndex = 0;
+            this.pbAvt.TabStop = false;
             // 
             // Form_Account
             // 
@@ -166,13 +168,13 @@
             this.Controls.Add(this.lbID);
             this.Controls.Add(this.lbHoTen);
             this.Controls.Add(this.lbDoiAvt);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pbAvt);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form_Account";
             this.Text = "Form_Account";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbAvt)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -180,7 +182,7 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pbAvt;
         private System.Windows.Forms.Label lbDoiAvt;
         private System.Windows.Forms.Label lbHoTen;
         private System.Windows.Forms.Label lbID;
