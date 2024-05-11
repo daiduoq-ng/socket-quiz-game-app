@@ -53,7 +53,8 @@ namespace NT106
 
         private void btnSetting_Click(object sender, EventArgs e)
         {
-
+            Form_Setting formSetting = new Form_Setting(this);
+            OpenChildForm(formSetting);
         }
     }
 }

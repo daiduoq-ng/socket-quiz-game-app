@@ -92,6 +92,18 @@
     <Compile Include="Form_Game.Designer.cs">
       <DependentUpon>Form_Game.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_Guides.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Guides.Designer.cs">
+      <DependentUpon>Form_Guides.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Setting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Setting.Designer.cs">
+      <DependentUpon>Form_Setting.cs</DependentUpon>
+    </Compile>
     <Compile Include="HomePage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +111,11 @@
       <DependentUpon>HomePage.cs</DependentUpon>
     </Compile>
     <Compile Include="Modify.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Reset_Pass.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -143,6 +160,12 @@
     <EmbeddedResource Include="Form_Game.resx">
       <DependentUpon>Form_Game.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form_Guides.resx">
+      <DependentUpon>Form_Guides.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Setting.resx">
+      <DependentUpon>Form_Setting.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HomePage.resx">
       <DependentUpon>HomePage.cs</DependentUpon>
     </EmbeddedResource>
@@ -154,14 +177,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="Sign_Up.resx">
       <DependentUpon>Sign_Up.cs</DependentUpon>
     </EmbeddedResource>
@@ -198,6 +216,11 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\volume.png" />
+    <None Include="Resources\medium-volume %281%29.png" />
+    <None Include="Resources\medium-volume.png" />
+    <None Include="Resources\ask.png" />
+    <None Include="Resources\music.png" />
     <None Include="Resources\event.png" />
     <None Include="Resources\profile-user %284%29.png" />
     <None Include="Resources\mail.png" />

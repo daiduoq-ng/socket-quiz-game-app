@@ -34,3 +34,5 @@ D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.Form_Account.resources
 D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.Form_Event.resources
 D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.Form_BXH.resources
 D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.Form_Event1.resources
+D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.Form_Setting.resources
+D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.Form_Guides.resources

@@ -65,6 +65,7 @@
             this.lbEvent3.AutoSize = true;
             this.lbEvent3.BackColor = System.Drawing.Color.MintCream;
             this.lbEvent3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbEvent3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbEvent3.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbEvent3.ForeColor = System.Drawing.Color.MediumSeaGreen;
             this.lbEvent3.Location = new System.Drawing.Point(102, 189);
@@ -79,6 +80,7 @@
             this.lbEvent2.AutoSize = true;
             this.lbEvent2.BackColor = System.Drawing.Color.MintCream;
             this.lbEvent2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbEvent2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbEvent2.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbEvent2.ForeColor = System.Drawing.Color.MediumSeaGreen;
             this.lbEvent2.Location = new System.Drawing.Point(102, 103);
@@ -93,6 +95,7 @@
             this.lbEvent1.AutoSize = true;
             this.lbEvent1.BackColor = System.Drawing.Color.MintCream;
             this.lbEvent1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbEvent1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbEvent1.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbEvent1.ForeColor = System.Drawing.Color.MediumSeaGreen;
             this.lbEvent1.Location = new System.Drawing.Point(102, 17);
