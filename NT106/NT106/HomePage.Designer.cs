@@ -30,17 +30,17 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomePage));
             this.panelLeft = new System.Windows.Forms.Panel();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnSetting = new System.Windows.Forms.Button();
             this.btnMyScore = new System.Windows.Forms.Button();
             this.btnBXH = new System.Windows.Forms.Button();
             this.btnEvent = new System.Windows.Forms.Button();
             this.btnAccount = new System.Windows.Forms.Button();
             this.panelBody = new System.Windows.Forms.Panel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelLeft.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -67,6 +67,90 @@
             this.panelLeft.Name = "panelLeft";
             this.panelLeft.Size = new System.Drawing.Size(192, 514);
             this.panelLeft.TabIndex = 0;
+            // 
+            // btnSetting
+            // 
+            this.btnSetting.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSetting.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSetting.Font = new System.Drawing.Font("Comic Sans MS", 14F, System.Drawing.FontStyle.Bold);
+            this.btnSetting.ForeColor = System.Drawing.Color.MintCream;
+            this.btnSetting.Location = new System.Drawing.Point(0, 407);
+            this.btnSetting.Name = "btnSetting";
+            this.btnSetting.Size = new System.Drawing.Size(192, 105);
+            this.btnSetting.TabIndex = 4;
+            this.btnSetting.Text = "Cài Đặt";
+            this.btnSetting.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnSetting.UseVisualStyleBackColor = true;
+            this.btnSetting.Click += new System.EventHandler(this.btnSetting_Click);
+            // 
+            // btnMyScore
+            // 
+            this.btnMyScore.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMyScore.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMyScore.Font = new System.Drawing.Font("Comic Sans MS", 14F, System.Drawing.FontStyle.Bold);
+            this.btnMyScore.ForeColor = System.Drawing.Color.MintCream;
+            this.btnMyScore.Location = new System.Drawing.Point(0, 306);
+            this.btnMyScore.Name = "btnMyScore";
+            this.btnMyScore.Size = new System.Drawing.Size(192, 105);
+            this.btnMyScore.TabIndex = 3;
+            this.btnMyScore.Text = "Điểm \r\nCủa Tôi";
+            this.btnMyScore.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnMyScore.UseVisualStyleBackColor = true;
+            this.btnMyScore.Click += new System.EventHandler(this.btnMyScore_Click);
+            // 
+            // btnBXH
+            // 
+            this.btnBXH.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBXH.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBXH.Font = new System.Drawing.Font("Comic Sans MS", 14F, System.Drawing.FontStyle.Bold);
+            this.btnBXH.ForeColor = System.Drawing.Color.MintCream;
+            this.btnBXH.Location = new System.Drawing.Point(0, 204);
+            this.btnBXH.Name = "btnBXH";
+            this.btnBXH.Size = new System.Drawing.Size(192, 105);
+            this.btnBXH.TabIndex = 2;
+            this.btnBXH.Text = "BXH";
+            this.btnBXH.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnBXH.UseVisualStyleBackColor = true;
+            this.btnBXH.Click += new System.EventHandler(this.btnBXH_Click);
+            // 
+            // btnEvent
+            // 
+            this.btnEvent.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEvent.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEvent.Font = new System.Drawing.Font("Comic Sans MS", 14F, System.Drawing.FontStyle.Bold);
+            this.btnEvent.ForeColor = System.Drawing.Color.MintCream;
+            this.btnEvent.Location = new System.Drawing.Point(0, 102);
+            this.btnEvent.Name = "btnEvent";
+            this.btnEvent.Size = new System.Drawing.Size(192, 105);
+            this.btnEvent.TabIndex = 1;
+            this.btnEvent.Text = "Sự Kiện";
+            this.btnEvent.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnEvent.UseVisualStyleBackColor = true;
+            this.btnEvent.Click += new System.EventHandler(this.btnEvent_Click);
+            // 
+            // btnAccount
+            // 
+            this.btnAccount.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAccount.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAccount.Font = new System.Drawing.Font("Comic Sans MS", 14F, System.Drawing.FontStyle.Bold);
+            this.btnAccount.ForeColor = System.Drawing.Color.MintCream;
+            this.btnAccount.Location = new System.Drawing.Point(0, 0);
+            this.btnAccount.Name = "btnAccount";
+            this.btnAccount.Size = new System.Drawing.Size(192, 105);
+            this.btnAccount.TabIndex = 0;
+            this.btnAccount.Text = "Tài Khoản";
+            this.btnAccount.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnAccount.UseVisualStyleBackColor = true;
+            this.btnAccount.Click += new System.EventHandler(this.btnAccount_Click);
+            // 
+            // panelBody
+            // 
+            this.panelBody.BackColor = System.Drawing.Color.MintCream;
+            this.panelBody.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelBody.Location = new System.Drawing.Point(192, 0);
+            this.panelBody.Name = "panelBody";
+            this.panelBody.Size = new System.Drawing.Size(847, 514);
+            this.panelBody.TabIndex = 1;
             // 
             // pictureBox5
             // 
@@ -117,90 +201,6 @@
             this.pictureBox1.Size = new System.Drawing.Size(41, 42);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            // 
-            // btnSetting
-            // 
-            this.btnSetting.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSetting.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSetting.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSetting.ForeColor = System.Drawing.Color.MintCream;
-            this.btnSetting.Location = new System.Drawing.Point(0, 407);
-            this.btnSetting.Name = "btnSetting";
-            this.btnSetting.Size = new System.Drawing.Size(192, 105);
-            this.btnSetting.TabIndex = 4;
-            this.btnSetting.Text = "Cài Đặt";
-            this.btnSetting.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnSetting.UseVisualStyleBackColor = true;
-            this.btnSetting.Click += new System.EventHandler(this.btnSetting_Click);
-            // 
-            // btnMyScore
-            // 
-            this.btnMyScore.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMyScore.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMyScore.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMyScore.ForeColor = System.Drawing.Color.MintCream;
-            this.btnMyScore.Location = new System.Drawing.Point(0, 306);
-            this.btnMyScore.Name = "btnMyScore";
-            this.btnMyScore.Size = new System.Drawing.Size(192, 105);
-            this.btnMyScore.TabIndex = 3;
-            this.btnMyScore.Text = "Điểm \r\nCủa Tôi";
-            this.btnMyScore.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnMyScore.UseVisualStyleBackColor = true;
-            this.btnMyScore.Click += new System.EventHandler(this.btnMyScore_Click);
-            // 
-            // btnBXH
-            // 
-            this.btnBXH.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnBXH.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBXH.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBXH.ForeColor = System.Drawing.Color.MintCream;
-            this.btnBXH.Location = new System.Drawing.Point(0, 204);
-            this.btnBXH.Name = "btnBXH";
-            this.btnBXH.Size = new System.Drawing.Size(192, 105);
-            this.btnBXH.TabIndex = 2;
-            this.btnBXH.Text = "BXH";
-            this.btnBXH.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnBXH.UseVisualStyleBackColor = true;
-            this.btnBXH.Click += new System.EventHandler(this.btnBXH_Click);
-            // 
-            // btnEvent
-            // 
-            this.btnEvent.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnEvent.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEvent.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEvent.ForeColor = System.Drawing.Color.MintCream;
-            this.btnEvent.Location = new System.Drawing.Point(0, 102);
-            this.btnEvent.Name = "btnEvent";
-            this.btnEvent.Size = new System.Drawing.Size(192, 105);
-            this.btnEvent.TabIndex = 1;
-            this.btnEvent.Text = "Sự Kiện";
-            this.btnEvent.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnEvent.UseVisualStyleBackColor = true;
-            this.btnEvent.Click += new System.EventHandler(this.btnEvent_Click);
-            // 
-            // btnAccount
-            // 
-            this.btnAccount.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAccount.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAccount.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAccount.ForeColor = System.Drawing.Color.MintCream;
-            this.btnAccount.Location = new System.Drawing.Point(0, 0);
-            this.btnAccount.Name = "btnAccount";
-            this.btnAccount.Size = new System.Drawing.Size(192, 105);
-            this.btnAccount.TabIndex = 0;
-            this.btnAccount.Text = "Tài Khoản";
-            this.btnAccount.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnAccount.UseVisualStyleBackColor = true;
-            this.btnAccount.Click += new System.EventHandler(this.btnAccount_Click);
-            // 
-            // panelBody
-            // 
-            this.panelBody.BackColor = System.Drawing.Color.MintCream;
-            this.panelBody.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelBody.Location = new System.Drawing.Point(192, 0);
-            this.panelBody.Name = "panelBody";
-            this.panelBody.Size = new System.Drawing.Size(847, 514);
-            this.panelBody.TabIndex = 1;
             // 
             // HomePage
             // 

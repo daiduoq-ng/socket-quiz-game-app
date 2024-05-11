@@ -158,11 +158,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.MintCream;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold);
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.Color.MediumSeaGreen;
             this.label4.Location = new System.Drawing.Point(279, 22);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(182, 37);
+            this.label4.Size = new System.Drawing.Size(157, 32);
             this.label4.TabIndex = 30;
             this.label4.Text = "Hướng Dẫn";
             // 

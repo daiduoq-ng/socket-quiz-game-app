@@ -32,35 +32,35 @@
             this.lbHoTen = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.textBoxElipse1 = new NT106.UserControls.TextBoxElipse();
+            this.textBoxElipse2 = new NT106.UserControls.TextBoxElipse();
+            this.textBoxElipse3 = new NT106.UserControls.TextBoxElipse();
+            this.textBoxElipse4 = new NT106.UserControls.TextBoxElipse();
+            this.textBoxElipse5 = new NT106.UserControls.TextBoxElipse();
+            this.textBoxElipse6 = new NT106.UserControls.TextBoxElipse();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.textBoxElipse7 = new NT106.UserControls.TextBoxElipse();
+            this.textBoxElipse8 = new NT106.UserControls.TextBoxElipse();
+            this.textBoxElipse9 = new NT106.UserControls.TextBoxElipse();
+            this.textBoxElipse10 = new NT106.UserControls.TextBoxElipse();
+            this.textBoxElipse11 = new NT106.UserControls.TextBoxElipse();
+            this.textBoxElipse12 = new NT106.UserControls.TextBoxElipse();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -71,45 +71,45 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Comic Sans MS", 20F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.label2.Location = new System.Drawing.Point(277, 9);
+            this.label2.Location = new System.Drawing.Point(279, 9);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(301, 38);
+            this.label2.Size = new System.Drawing.Size(313, 48);
             this.label2.TabIndex = 4;
-            this.label2.Text = "BẢNG XẾP HẠNG";
+            this.label2.Text = "BANG XEP HANG";
             // 
             // lbHoTen
             // 
             this.lbHoTen.AutoSize = true;
-            this.lbHoTen.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbHoTen.Font = new System.Drawing.Font("Comic Sans MS", 13F, System.Drawing.FontStyle.Bold);
             this.lbHoTen.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.lbHoTen.Location = new System.Drawing.Point(395, 189);
+            this.lbHoTen.Location = new System.Drawing.Point(392, 195);
             this.lbHoTen.Name = "lbHoTen";
-            this.lbHoTen.Size = new System.Drawing.Size(71, 25);
+            this.lbHoTen.Size = new System.Drawing.Size(73, 31);
             this.lbHoTen.TabIndex = 8;
             this.lbHoTen.Text = "Name";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 13F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.label1.Location = new System.Drawing.Point(153, 189);
+            this.label1.Location = new System.Drawing.Point(150, 195);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(71, 25);
+            this.label1.Size = new System.Drawing.Size(73, 31);
             this.label1.TabIndex = 9;
             this.label1.Text = "Name";
             // 
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.label21);
-            this.panel1.Controls.Add(this.label20);
-            this.panel1.Controls.Add(this.label19);
-            this.panel1.Controls.Add(this.label18);
-            this.panel1.Controls.Add(this.label17);
-            this.panel1.Controls.Add(this.label16);
+            this.panel1.Controls.Add(this.textBoxElipse4);
+            this.panel1.Controls.Add(this.textBoxElipse3);
+            this.panel1.Controls.Add(this.textBoxElipse5);
+            this.panel1.Controls.Add(this.textBoxElipse6);
+            this.panel1.Controls.Add(this.textBoxElipse2);
+            this.panel1.Controls.Add(this.textBoxElipse1);
             this.panel1.Controls.Add(this.label9);
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.label7);
@@ -117,6 +117,39 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(297, 157);
             this.panel1.TabIndex = 11;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.label9.Location = new System.Drawing.Point(19, 106);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(36, 25);
+            this.label9.TabIndex = 17;
+            this.label9.Text = "#6";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.label8.Location = new System.Drawing.Point(19, 66);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(36, 25);
+            this.label8.TabIndex = 16;
+            this.label8.Text = "#5";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.label7.Location = new System.Drawing.Point(19, 26);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(36, 25);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "#4";
             // 
             // label4
             // 
@@ -151,154 +184,49 @@
             this.label6.TabIndex = 14;
             this.label6.Text = "#2";
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.label7.Location = new System.Drawing.Point(19, 26);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(36, 25);
-            this.label7.TabIndex = 15;
-            this.label7.Text = "#4";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.label8.Location = new System.Drawing.Point(19, 66);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(36, 25);
-            this.label8.TabIndex = 16;
-            this.label8.Text = "#5";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.label9.Location = new System.Drawing.Point(19, 106);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(36, 25);
-            this.label9.TabIndex = 17;
-            this.label9.Text = "#6";
-            // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Font = new System.Drawing.Font("Comic Sans MS", 13F, System.Drawing.FontStyle.Bold);
             this.label13.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.label13.Location = new System.Drawing.Point(153, 214);
+            this.label13.Location = new System.Drawing.Point(150, 220);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(69, 25);
+            this.label13.Size = new System.Drawing.Size(75, 31);
             this.label13.TabIndex = 16;
             this.label13.Text = "Score";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Font = new System.Drawing.Font("Comic Sans MS", 13F, System.Drawing.FontStyle.Bold);
             this.label14.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.label14.Location = new System.Drawing.Point(395, 214);
+            this.label14.Location = new System.Drawing.Point(392, 220);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(69, 25);
+            this.label14.Size = new System.Drawing.Size(75, 31);
             this.label14.TabIndex = 17;
             this.label14.Text = "Score";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Comic Sans MS", 13F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.label3.Location = new System.Drawing.Point(638, 214);
+            this.label3.Location = new System.Drawing.Point(635, 220);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(69, 25);
+            this.label3.Size = new System.Drawing.Size(75, 31);
             this.label3.TabIndex = 19;
             this.label3.Text = "Score";
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Font = new System.Drawing.Font("Comic Sans MS", 13F, System.Drawing.FontStyle.Bold);
             this.label15.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.label15.Location = new System.Drawing.Point(638, 189);
+            this.label15.Location = new System.Drawing.Point(635, 195);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(71, 25);
+            this.label15.Size = new System.Drawing.Size(73, 31);
             this.label15.TabIndex = 18;
             this.label15.Text = "Name";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label16.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.label16.Location = new System.Drawing.Point(72, 26);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(73, 27);
-            this.label16.TabIndex = 20;
-            this.label16.Text = "Name";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label17.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.label17.Location = new System.Drawing.Point(72, 66);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(73, 27);
-            this.label17.TabIndex = 20;
-            this.label17.Text = "Name";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label18.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.label18.Location = new System.Drawing.Point(72, 106);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(73, 27);
-            this.label18.TabIndex = 21;
-            this.label18.Text = "Name";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label19.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.label19.Location = new System.Drawing.Point(199, 26);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(71, 27);
-            this.label19.TabIndex = 20;
-            this.label19.Text = "Score";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label20.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.label20.Location = new System.Drawing.Point(199, 66);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(71, 27);
-            this.label20.TabIndex = 20;
-            this.label20.Text = "Score";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label21.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.label21.Location = new System.Drawing.Point(199, 106);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(71, 27);
-            this.label21.TabIndex = 20;
-            this.label21.Text = "Score";
             // 
             // pictureBox3
             // 
@@ -330,127 +258,199 @@
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
+            // textBoxElipse1
+            // 
+            this.textBoxElipse1.BackColor = System.Drawing.Color.Transparent;
+            this.textBoxElipse1.Br = System.Drawing.Color.MintCream;
+            this.textBoxElipse1.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxElipse1.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.textBoxElipse1.Location = new System.Drawing.Point(61, 23);
+            this.textBoxElipse1.Name = "textBoxElipse1";
+            this.textBoxElipse1.Size = new System.Drawing.Size(94, 30);
+            this.textBoxElipse1.TabIndex = 21;
+            this.textBoxElipse1.Text = "Name";
+            // 
+            // textBoxElipse2
+            // 
+            this.textBoxElipse2.BackColor = System.Drawing.Color.Transparent;
+            this.textBoxElipse2.Br = System.Drawing.Color.MintCream;
+            this.textBoxElipse2.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxElipse2.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.textBoxElipse2.Location = new System.Drawing.Point(61, 63);
+            this.textBoxElipse2.Name = "textBoxElipse2";
+            this.textBoxElipse2.Size = new System.Drawing.Size(94, 30);
+            this.textBoxElipse2.TabIndex = 22;
+            this.textBoxElipse2.Text = "Name";
+            // 
+            // textBoxElipse3
+            // 
+            this.textBoxElipse3.BackColor = System.Drawing.Color.Transparent;
+            this.textBoxElipse3.Br = System.Drawing.Color.MintCream;
+            this.textBoxElipse3.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxElipse3.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.textBoxElipse3.Location = new System.Drawing.Point(61, 103);
+            this.textBoxElipse3.Name = "textBoxElipse3";
+            this.textBoxElipse3.Size = new System.Drawing.Size(94, 30);
+            this.textBoxElipse3.TabIndex = 23;
+            this.textBoxElipse3.Text = "Name";
+            // 
+            // textBoxElipse4
+            // 
+            this.textBoxElipse4.BackColor = System.Drawing.Color.Transparent;
+            this.textBoxElipse4.Br = System.Drawing.Color.MintCream;
+            this.textBoxElipse4.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxElipse4.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.textBoxElipse4.Location = new System.Drawing.Point(174, 103);
+            this.textBoxElipse4.Name = "textBoxElipse4";
+            this.textBoxElipse4.Size = new System.Drawing.Size(94, 30);
+            this.textBoxElipse4.TabIndex = 26;
+            this.textBoxElipse4.Text = "Score";
+            // 
+            // textBoxElipse5
+            // 
+            this.textBoxElipse5.BackColor = System.Drawing.Color.Transparent;
+            this.textBoxElipse5.Br = System.Drawing.Color.MintCream;
+            this.textBoxElipse5.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxElipse5.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.textBoxElipse5.Location = new System.Drawing.Point(174, 63);
+            this.textBoxElipse5.Name = "textBoxElipse5";
+            this.textBoxElipse5.Size = new System.Drawing.Size(94, 30);
+            this.textBoxElipse5.TabIndex = 25;
+            this.textBoxElipse5.Text = "Score";
+            // 
+            // textBoxElipse6
+            // 
+            this.textBoxElipse6.BackColor = System.Drawing.Color.Transparent;
+            this.textBoxElipse6.Br = System.Drawing.Color.MintCream;
+            this.textBoxElipse6.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxElipse6.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.textBoxElipse6.Location = new System.Drawing.Point(174, 23);
+            this.textBoxElipse6.Name = "textBoxElipse6";
+            this.textBoxElipse6.Size = new System.Drawing.Size(94, 30);
+            this.textBoxElipse6.TabIndex = 24;
+            this.textBoxElipse6.Text = "Score";
+            // 
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.textBoxElipse7);
+            this.panel2.Controls.Add(this.textBoxElipse8);
+            this.panel2.Controls.Add(this.textBoxElipse9);
+            this.panel2.Controls.Add(this.textBoxElipse10);
+            this.panel2.Controls.Add(this.textBoxElipse11);
+            this.panel2.Controls.Add(this.textBoxElipse12);
             this.panel2.Controls.Add(this.label10);
             this.panel2.Controls.Add(this.label11);
             this.panel2.Controls.Add(this.label12);
-            this.panel2.Controls.Add(this.label22);
-            this.panel2.Controls.Add(this.label23);
-            this.panel2.Controls.Add(this.label24);
-            this.panel2.Controls.Add(this.label25);
-            this.panel2.Controls.Add(this.label26);
-            this.panel2.Controls.Add(this.label27);
             this.panel2.Location = new System.Drawing.Point(423, 285);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(297, 157);
             this.panel2.TabIndex = 20;
             // 
+            // textBoxElipse7
+            // 
+            this.textBoxElipse7.BackColor = System.Drawing.Color.Transparent;
+            this.textBoxElipse7.Br = System.Drawing.Color.MintCream;
+            this.textBoxElipse7.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxElipse7.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.textBoxElipse7.Location = new System.Drawing.Point(174, 103);
+            this.textBoxElipse7.Name = "textBoxElipse7";
+            this.textBoxElipse7.Size = new System.Drawing.Size(94, 30);
+            this.textBoxElipse7.TabIndex = 26;
+            this.textBoxElipse7.Text = "Score";
+            // 
+            // textBoxElipse8
+            // 
+            this.textBoxElipse8.BackColor = System.Drawing.Color.Transparent;
+            this.textBoxElipse8.Br = System.Drawing.Color.MintCream;
+            this.textBoxElipse8.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxElipse8.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.textBoxElipse8.Location = new System.Drawing.Point(61, 103);
+            this.textBoxElipse8.Name = "textBoxElipse8";
+            this.textBoxElipse8.Size = new System.Drawing.Size(94, 30);
+            this.textBoxElipse8.TabIndex = 23;
+            this.textBoxElipse8.Text = "Name";
+            // 
+            // textBoxElipse9
+            // 
+            this.textBoxElipse9.BackColor = System.Drawing.Color.Transparent;
+            this.textBoxElipse9.Br = System.Drawing.Color.MintCream;
+            this.textBoxElipse9.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxElipse9.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.textBoxElipse9.Location = new System.Drawing.Point(174, 63);
+            this.textBoxElipse9.Name = "textBoxElipse9";
+            this.textBoxElipse9.Size = new System.Drawing.Size(94, 30);
+            this.textBoxElipse9.TabIndex = 25;
+            this.textBoxElipse9.Text = "Score";
+            // 
+            // textBoxElipse10
+            // 
+            this.textBoxElipse10.BackColor = System.Drawing.Color.Transparent;
+            this.textBoxElipse10.Br = System.Drawing.Color.MintCream;
+            this.textBoxElipse10.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxElipse10.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.textBoxElipse10.Location = new System.Drawing.Point(174, 23);
+            this.textBoxElipse10.Name = "textBoxElipse10";
+            this.textBoxElipse10.Size = new System.Drawing.Size(94, 30);
+            this.textBoxElipse10.TabIndex = 24;
+            this.textBoxElipse10.Text = "Score";
+            // 
+            // textBoxElipse11
+            // 
+            this.textBoxElipse11.BackColor = System.Drawing.Color.Transparent;
+            this.textBoxElipse11.Br = System.Drawing.Color.MintCream;
+            this.textBoxElipse11.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxElipse11.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.textBoxElipse11.Location = new System.Drawing.Point(61, 63);
+            this.textBoxElipse11.Name = "textBoxElipse11";
+            this.textBoxElipse11.Size = new System.Drawing.Size(94, 30);
+            this.textBoxElipse11.TabIndex = 22;
+            this.textBoxElipse11.Text = "Name";
+            // 
+            // textBoxElipse12
+            // 
+            this.textBoxElipse12.BackColor = System.Drawing.Color.Transparent;
+            this.textBoxElipse12.Br = System.Drawing.Color.MintCream;
+            this.textBoxElipse12.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxElipse12.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.textBoxElipse12.Location = new System.Drawing.Point(61, 23);
+            this.textBoxElipse12.Name = "textBoxElipse12";
+            this.textBoxElipse12.Size = new System.Drawing.Size(94, 30);
+            this.textBoxElipse12.TabIndex = 21;
+            this.textBoxElipse12.Text = "Name";
+            // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label10.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.label10.Location = new System.Drawing.Point(199, 106);
+            this.label10.Location = new System.Drawing.Point(19, 106);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(71, 27);
-            this.label10.TabIndex = 20;
-            this.label10.Text = "Score";
+            this.label10.Size = new System.Drawing.Size(36, 25);
+            this.label10.TabIndex = 17;
+            this.label10.Text = "#6";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label11.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.label11.Location = new System.Drawing.Point(199, 66);
+            this.label11.Location = new System.Drawing.Point(19, 66);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(71, 27);
-            this.label11.TabIndex = 20;
-            this.label11.Text = "Score";
+            this.label11.Size = new System.Drawing.Size(36, 25);
+            this.label11.TabIndex = 16;
+            this.label11.Text = "#5";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label12.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.label12.Location = new System.Drawing.Point(199, 26);
+            this.label12.Location = new System.Drawing.Point(19, 26);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(71, 27);
-            this.label12.TabIndex = 20;
-            this.label12.Text = "Score";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label22.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.label22.Location = new System.Drawing.Point(72, 106);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(73, 27);
-            this.label22.TabIndex = 21;
-            this.label22.Text = "Name";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label23.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.label23.Location = new System.Drawing.Point(72, 66);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(73, 27);
-            this.label23.TabIndex = 20;
-            this.label23.Text = "Name";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label24.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.label24.Location = new System.Drawing.Point(72, 26);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(73, 27);
-            this.label24.TabIndex = 20;
-            this.label24.Text = "Name";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.label25.Location = new System.Drawing.Point(19, 106);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(36, 25);
-            this.label25.TabIndex = 17;
-            this.label25.Text = "#9";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.label26.Location = new System.Drawing.Point(19, 66);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(36, 25);
-            this.label26.TabIndex = 16;
-            this.label26.Text = "#8";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.label27.Location = new System.Drawing.Point(19, 26);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(36, 25);
-            this.label27.TabIndex = 15;
-            this.label27.Text = "#7";
+            this.label12.Size = new System.Drawing.Size(36, 25);
+            this.label12.TabIndex = 15;
+            this.label12.Text = "#4";
             // 
             // Form_BXH
             // 
@@ -497,12 +497,6 @@
         private System.Windows.Forms.Label lbHoTen;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
@@ -513,15 +507,21 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label15;
+        private UserControls.TextBoxElipse textBoxElipse4;
+        private UserControls.TextBoxElipse textBoxElipse3;
+        private UserControls.TextBoxElipse textBoxElipse5;
+        private UserControls.TextBoxElipse textBoxElipse6;
+        private UserControls.TextBoxElipse textBoxElipse2;
+        private UserControls.TextBoxElipse textBoxElipse1;
         private System.Windows.Forms.Panel panel2;
+        private UserControls.TextBoxElipse textBoxElipse7;
+        private UserControls.TextBoxElipse textBoxElipse8;
+        private UserControls.TextBoxElipse textBoxElipse9;
+        private UserControls.TextBoxElipse textBoxElipse10;
+        private UserControls.TextBoxElipse textBoxElipse11;
+        private UserControls.TextBoxElipse textBoxElipse12;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label27;
     }
 }

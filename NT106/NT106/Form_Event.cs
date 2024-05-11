@@ -22,7 +22,7 @@ namespace NT106
 
         private void lbEvent1_Click(object sender, EventArgs e)
         {
-            Form_Event1 form_Event1 = new Form_Event1();
+            Form_QuestionUser form_Event1 = new Form_QuestionUser();
             homePage.OpenChildForm(form_Event1);
         }
 

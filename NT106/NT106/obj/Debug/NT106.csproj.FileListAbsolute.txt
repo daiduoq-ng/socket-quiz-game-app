@@ -21,7 +21,6 @@ D:\NT106_DoAnCK\NT106\NT106\bin\Debug\NT106.pdb
 D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.csproj.AssemblyReference.cache
 D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.csproj.SuggestedBindingRedirects.cache
 D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.Form_Game.resources
-D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.HomePage.resources
 D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.Reset_Pass.resources
 D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.Sign_In.resources
 D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.Properties.Resources.resources
@@ -33,6 +32,10 @@ D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.pdb
 D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.Form_Account.resources
 D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.Form_Event.resources
 D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.Form_BXH.resources
-D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.Form_Event1.resources
 D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.Form_Setting.resources
 D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.Form_Guides.resources
+D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.MC_HomePages.resources
+D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.HomePage.resources
+D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.Form_QuestionMC.resources
+D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.Form_QuestionUser.resources
+D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.Form_Infor.resources

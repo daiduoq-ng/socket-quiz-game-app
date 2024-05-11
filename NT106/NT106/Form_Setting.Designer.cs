@@ -34,10 +34,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.btnCheckGuide = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pbMusic = new System.Windows.Forms.PictureBox();
             this.pbVolume = new System.Windows.Forms.PictureBox();
+            this.btnCheckGuide = new NT106.UserControls.ButtonElipse();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarSound)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -77,11 +77,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.MintCream;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.MediumSeaGreen;
             this.label1.Location = new System.Drawing.Point(331, 180);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 25);
+            this.label1.Size = new System.Drawing.Size(70, 29);
             this.label1.TabIndex = 13;
             this.label1.Text = "Sound";
             // 
@@ -89,11 +89,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.MintCream;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.MediumSeaGreen;
             this.label2.Location = new System.Drawing.Point(331, 239);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 25);
+            this.label2.Size = new System.Drawing.Size(67, 29);
             this.label2.TabIndex = 14;
             this.label2.Text = "Music";
             // 
@@ -101,11 +101,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.MintCream;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.MediumSeaGreen;
             this.label3.Location = new System.Drawing.Point(331, 301);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 25);
+            this.label3.Size = new System.Drawing.Size(66, 29);
             this.label3.TabIndex = 15;
             this.label3.Text = "Guide";
             // 
@@ -113,28 +113,13 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.MintCream;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold);
+            this.label4.Font = new System.Drawing.Font("Comic Sans MS", 20F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.label4.Location = new System.Drawing.Point(350, 54);
+            this.label4.Location = new System.Drawing.Point(356, 71);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(163, 37);
+            this.label4.Size = new System.Drawing.Size(183, 48);
             this.label4.TabIndex = 18;
             this.label4.Text = "SETTING";
-            // 
-            // btnCheckGuide
-            // 
-            this.btnCheckGuide.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.btnCheckGuide.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCheckGuide.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCheckGuide.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnCheckGuide.ForeColor = System.Drawing.Color.MintCream;
-            this.btnCheckGuide.Location = new System.Drawing.Point(429, 296);
-            this.btnCheckGuide.Name = "btnCheckGuide";
-            this.btnCheckGuide.Size = new System.Drawing.Size(93, 35);
-            this.btnCheckGuide.TabIndex = 19;
-            this.btnCheckGuide.Text = "Check";
-            this.btnCheckGuide.UseVisualStyleBackColor = false;
-            this.btnCheckGuide.Click += new System.EventHandler(this.btnCheckGuide_Click);
             // 
             // pictureBox1
             // 
@@ -168,6 +153,27 @@
             this.pbVolume.Size = new System.Drawing.Size(48, 32);
             this.pbVolume.TabIndex = 7;
             this.pbVolume.TabStop = false;
+            // 
+            // btnCheckGuide
+            // 
+            this.btnCheckGuide.Active1 = System.Drawing.Color.DarkGreen;
+            this.btnCheckGuide.Active2 = System.Drawing.Color.Black;
+            this.btnCheckGuide.BackColor = System.Drawing.Color.Transparent;
+            this.btnCheckGuide.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.btnCheckGuide.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold);
+            this.btnCheckGuide.ForeColor = System.Drawing.Color.MintCream;
+            this.btnCheckGuide.Inactive1 = System.Drawing.Color.MediumSeaGreen;
+            this.btnCheckGuide.Inactive2 = System.Drawing.Color.MediumSeaGreen;
+            this.btnCheckGuide.Location = new System.Drawing.Point(445, 298);
+            this.btnCheckGuide.Name = "btnCheckGuide";
+            this.btnCheckGuide.Radius = 10;
+            this.btnCheckGuide.Size = new System.Drawing.Size(118, 44);
+            this.btnCheckGuide.Stroke = false;
+            this.btnCheckGuide.StrokeColor = System.Drawing.Color.Gray;
+            this.btnCheckGuide.TabIndex = 20;
+            this.btnCheckGuide.Text = "Check";
+            this.btnCheckGuide.Transparency = false;
+            this.btnCheckGuide.Click += new System.EventHandler(this.btnCheckGuide_Click);
             // 
             // Form_Setting
             // 
@@ -208,6 +214,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button btnCheckGuide;
+        private UserControls.ButtonElipse btnCheckGuide;
     }
 }

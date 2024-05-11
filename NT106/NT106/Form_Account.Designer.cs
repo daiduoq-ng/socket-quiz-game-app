@@ -60,44 +60,44 @@
             // lbHoTen
             // 
             this.lbHoTen.AutoSize = true;
-            this.lbHoTen.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbHoTen.Font = new System.Drawing.Font("Comic Sans MS", 14F, System.Drawing.FontStyle.Bold);
             this.lbHoTen.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.lbHoTen.Location = new System.Drawing.Point(327, 208);
+            this.lbHoTen.Location = new System.Drawing.Point(322, 182);
             this.lbHoTen.Name = "lbHoTen";
-            this.lbHoTen.Size = new System.Drawing.Size(184, 32);
+            this.lbHoTen.Size = new System.Drawing.Size(179, 35);
             this.lbHoTen.TabIndex = 2;
             this.lbHoTen.Text = "Nguyen Van A";
             // 
             // lbID
             // 
             this.lbID.AutoSize = true;
-            this.lbID.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbID.Font = new System.Drawing.Font("Comic Sans MS", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbID.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.lbID.Location = new System.Drawing.Point(279, 259);
+            this.lbID.Location = new System.Drawing.Point(277, 231);
             this.lbID.Name = "lbID";
-            this.lbID.Size = new System.Drawing.Size(124, 23);
+            this.lbID.Size = new System.Drawing.Size(127, 25);
             this.lbID.TabIndex = 3;
             this.lbID.Text = "ID: 22520000";
             // 
             // lbRank
             // 
             this.lbRank.AutoSize = true;
-            this.lbRank.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbRank.Font = new System.Drawing.Font("Comic Sans MS", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbRank.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.lbRank.Location = new System.Drawing.Point(434, 259);
+            this.lbRank.Location = new System.Drawing.Point(432, 231);
             this.lbRank.Name = "lbRank";
-            this.lbRank.Size = new System.Drawing.Size(159, 23);
+            this.lbRank.Size = new System.Drawing.Size(155, 25);
             this.lbRank.TabIndex = 4;
             this.lbRank.Text = "Rank: Thách Đấu";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Comic Sans MS", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.label5.Location = new System.Drawing.Point(409, 244);
+            this.label5.Location = new System.Drawing.Point(407, 231);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(23, 37);
+            this.label5.Size = new System.Drawing.Size(19, 25);
             this.label5.TabIndex = 5;
             this.label5.Text = "|";
             // 

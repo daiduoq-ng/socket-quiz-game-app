@@ -80,11 +80,17 @@
     <Compile Include="Form_Event.Designer.cs">
       <DependentUpon>Form_Event.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_Event1.cs">
+    <Compile Include="Form_QuestionMC.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_Event1.Designer.cs">
-      <DependentUpon>Form_Event1.cs</DependentUpon>
+    <Compile Include="Form_QuestionMC.Designer.cs">
+      <DependentUpon>Form_QuestionMC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_QuestionUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_QuestionUser.Designer.cs">
+      <DependentUpon>Form_QuestionUser.cs</DependentUpon>
     </Compile>
     <Compile Include="Form_Game.cs">
       <SubType>Form</SubType>
@@ -98,6 +104,12 @@
     <Compile Include="Form_Guides.Designer.cs">
       <DependentUpon>Form_Guides.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_Infor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Infor.Designer.cs">
+      <DependentUpon>Form_Infor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_Setting.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +121,12 @@
     </Compile>
     <Compile Include="HomePage.Designer.cs">
       <DependentUpon>HomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MC_HomePages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MC_HomePages.Designer.cs">
+      <DependentUpon>MC_HomePages.cs</DependentUpon>
     </Compile>
     <Compile Include="Modify.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -137,6 +155,12 @@
       <DependentUpon>Sign_Up.cs</DependentUpon>
     </Compile>
     <Compile Include="User.cs" />
+    <Compile Include="UserControls\ButtonElipse.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControls\ButtonElipse.Designer.cs">
+      <DependentUpon>ButtonElipse.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\RoundedRectangleF.cs" />
     <Compile Include="UserControls\TextBoxElipse.cs">
       <SubType>Component</SubType>
@@ -154,8 +178,11 @@
     <EmbeddedResource Include="Form_Event.resx">
       <DependentUpon>Form_Event.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_Event1.resx">
-      <DependentUpon>Form_Event1.cs</DependentUpon>
+    <EmbeddedResource Include="Form_QuestionMC.resx">
+      <DependentUpon>Form_QuestionMC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_QuestionUser.resx">
+      <DependentUpon>Form_QuestionUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Game.resx">
       <DependentUpon>Form_Game.cs</DependentUpon>
@@ -163,11 +190,17 @@
     <EmbeddedResource Include="Form_Guides.resx">
       <DependentUpon>Form_Guides.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form_Infor.resx">
+      <DependentUpon>Form_Infor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form_Setting.resx">
       <DependentUpon>Form_Setting.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HomePage.resx">
       <DependentUpon>HomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MC_HomePages.resx">
+      <DependentUpon>MC_HomePages.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reset_Pass.resx">
       <DependentUpon>Reset_Pass.cs</DependentUpon>
