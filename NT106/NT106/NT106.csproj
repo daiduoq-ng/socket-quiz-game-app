@@ -249,6 +249,20 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\trophy %281%29.png" />
+    <None Include="Resources\prize.png" />
+    <None Include="Resources\star %281%29.png" />
+    <None Include="Resources\high-score.png" />
+    <None Include="Resources\settings %282%29.png" />
+    <None Include="Resources\configuration %281%29.png" />
+    <None Include="Resources\power-button1.png" />
+    <None Include="Resources\power-button.png" />
+    <None Include="Resources\settings %281%29.png" />
+    <None Include="Resources\success.png" />
+    <None Include="Resources\add %281%29.png" />
+    <None Include="Resources\add.png" />
+    <None Include="Resources\user.png" />
+    <None Include="Resources\cross.png" />
     <None Include="Resources\volume.png" />
     <None Include="Resources\medium-volume %281%29.png" />
     <None Include="Resources\medium-volume.png" />
