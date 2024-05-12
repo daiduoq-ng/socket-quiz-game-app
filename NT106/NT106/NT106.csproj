@@ -105,6 +105,12 @@
     <Compile Include="Reset_Pass.Designer.cs">
       <DependentUpon>Reset_Pass.cs</DependentUpon>
     </Compile>
+    <Compile Include="Server.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Server.Designer.cs">
+      <DependentUpon>Server.cs</DependentUpon>
+    </Compile>
     <Compile Include="Sign_In.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -148,6 +154,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Reset_Pass.resx">
       <DependentUpon>Reset_Pass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Server.resx">
+      <DependentUpon>Server.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Sign_In.resx">
       <DependentUpon>Sign_In.cs</DependentUpon>
