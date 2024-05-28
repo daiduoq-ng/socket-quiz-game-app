@@ -9,7 +9,8 @@ namespace NT106
 {
     class Connection
     {
-        private static string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""E:\New folder\NT106\NT106\Database1.mdf"";Integrated Security=True";
+        private static string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\NT106_DoAnCK\NT106-Final\NT106\NT106\Database1.mdf;Integrated Security=True";
+
 
         public static SqlConnection GetSqlConnection()
         {

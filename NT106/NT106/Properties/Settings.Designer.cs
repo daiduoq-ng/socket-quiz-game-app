@@ -26,5 +26,20 @@ namespace NT106.Properties
                 return defaultInstance;
             }
         }
+
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int VolumeLevel
+        {
+            get
+            {
+                return ((int)(this["VolumeLevel"]));
+            }
+            set
+            {
+                this["VolumeLevel"] = value;
+            }
+        }
     }
 }

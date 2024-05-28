@@ -10,7 +10,8 @@ namespace NT106
     {
         private string userName;
         private string password;
-
+        public string Email { get; set; } // Thêm thuộc tính Email
+        public byte[] ProfileImage { get; set; }
         public User()
         {
         }
@@ -20,6 +21,7 @@ namespace NT106
             this.userName = userName;
             this.password = password;
         }
+
 
         public string UserName { get => userName; set => userName = value; }
         public string Password { get => password; set => password = value; }

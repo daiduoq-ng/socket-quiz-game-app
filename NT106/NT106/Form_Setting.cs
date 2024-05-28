@@ -13,17 +13,22 @@ namespace NT106
     public partial class Form_Setting : Form
     {
         private HomePage homePage;
+        public UserControl ChinhSach;
 
         public Form_Setting(HomePage homePage)
         {
             InitializeComponent();
             this.homePage = homePage;
+
+            // Đặt giá trị của TrackBar từ Application Settings khi Form Setting được khởi tạo
+            trackBarMusic.Value = Properties.Settings.Default.VolumeLevel;
+
         }
 
         private void VolumeTrackBar_ValueChanged(object sender, EventArgs e)
         {
             // Lấy giá trị hiện tại của TrackBar làm giá trị âm lượng
-            int volume = trackBar1.Value;
+            int volume = trackBarMusic.Value;
 
             // Gọi phương thức hoặc sử dụng giá trị âm lượng tại đây
             // Ví dụ: điều chỉnh âm lượng của âm thanh dựa trên giá trị volume
@@ -37,10 +42,38 @@ namespace NT106
             Console.WriteLine($"Đã điều chỉnh âm lượng: {volume}");
         }
 
+        private void btnAboutUs_Click(object sender, EventArgs e)
+        {
+            Form_Infor form_Infor = new Form_Infor();
+            homePage.OpenChildForm(form_Infor);
+        }
+
+        private void btn_LogOut_Click(object sender, EventArgs e)
+        {
+            // Đóng form hiện tại
+            this.Close();
+
+            // Khởi động lại ứng dụng
+            Application.Restart();
+        }
+
         private void btnCheckGuide_Click(object sender, EventArgs e)
         {
-            Form_Guides form_Guides = new Form_Guides();
-            homePage.OpenChildForm(form_Guides);
+
+        }
+
+        private void trackBar1_Scroll(object sender, EventArgs e)
+        {
+            homePage.SetVolume(trackBarMusic.Value); //set volume cho nhạc nền ở homepage
+            Properties.Settings.Default.VolumeLevel = trackBarMusic.Value;
+            Properties.Settings.Default.Save();
+
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            ChinhSachRiengTu f = new ChinhSachRiengTu();
+            f.Show();
         }
     }
 }

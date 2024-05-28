@@ -48,7 +48,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -61,6 +66,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChinhSachRiengTu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChinhSachRiengTu.Designer.cs">
+      <DependentUpon>ChinhSachRiengTu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Connection.cs" />
     <Compile Include="Form_Account.cs">
       <SubType>Form</SubType>
@@ -80,23 +91,11 @@
     <Compile Include="Form_Event.Designer.cs">
       <DependentUpon>Form_Event.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_QuestionMC.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form_QuestionMC.Designer.cs">
-      <DependentUpon>Form_QuestionMC.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form_QuestionUser.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form_QuestionUser.Designer.cs">
       <DependentUpon>Form_QuestionUser.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form_Game.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form_Game.Designer.cs">
-      <DependentUpon>Form_Game.cs</DependentUpon>
     </Compile>
     <Compile Include="Form_Guides.cs">
       <SubType>Form</SubType>
@@ -110,6 +109,12 @@
     <Compile Include="Form_Infor.Designer.cs">
       <DependentUpon>Form_Infor.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_Score.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Score.Designer.cs">
+      <DependentUpon>Form_Score.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_Setting.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,23 +127,24 @@
     <Compile Include="HomePage.Designer.cs">
       <DependentUpon>HomePage.cs</DependentUpon>
     </Compile>
-    <Compile Include="MC_HomePages.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MC_HomePages.Designer.cs">
-      <DependentUpon>MC_HomePages.cs</DependentUpon>
-    </Compile>
     <Compile Include="Modify.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="question.cs" />
     <Compile Include="Reset_Pass.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Reset_Pass.Designer.cs">
       <DependentUpon>Reset_Pass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Server.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Server.Designer.cs">
+      <DependentUpon>Server.cs</DependentUpon>
     </Compile>
     <Compile Include="Sign_In.cs">
       <SubType>Form</SubType>
@@ -153,6 +159,12 @@
     </Compile>
     <Compile Include="Sign_Up.Designer.cs">
       <DependentUpon>Sign_Up.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestCS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestCS.Designer.cs">
+      <DependentUpon>TestCS.cs</DependentUpon>
     </Compile>
     <Compile Include="User.cs" />
     <Compile Include="UserControls\ButtonElipse.cs">
@@ -169,6 +181,9 @@
       <DependentUpon>TextBoxElipse.cs</DependentUpon>
     </Compile>
     <Compile Include="UserControls\Transparenter.cs" />
+    <EmbeddedResource Include="ChinhSachRiengTu.resx">
+      <DependentUpon>ChinhSachRiengTu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form_Account.resx">
       <DependentUpon>Form_Account.cs</DependentUpon>
     </EmbeddedResource>
@@ -178,14 +193,8 @@
     <EmbeddedResource Include="Form_Event.resx">
       <DependentUpon>Form_Event.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_QuestionMC.resx">
-      <DependentUpon>Form_QuestionMC.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form_QuestionUser.resx">
       <DependentUpon>Form_QuestionUser.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form_Game.resx">
-      <DependentUpon>Form_Game.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Guides.resx">
       <DependentUpon>Form_Guides.cs</DependentUpon>
@@ -193,17 +202,20 @@
     <EmbeddedResource Include="Form_Infor.resx">
       <DependentUpon>Form_Infor.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form_Score.resx">
+      <DependentUpon>Form_Score.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form_Setting.resx">
       <DependentUpon>Form_Setting.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HomePage.resx">
       <DependentUpon>HomePage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MC_HomePages.resx">
-      <DependentUpon>MC_HomePages.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Reset_Pass.resx">
       <DependentUpon>Reset_Pass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Server.resx">
+      <DependentUpon>Server.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Sign_In.resx">
       <DependentUpon>Sign_In.cs</DependentUpon>
@@ -216,6 +228,10 @@
     <EmbeddedResource Include="Sign_Up.resx">
       <DependentUpon>Sign_Up.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="TestCS.resx">
+      <DependentUpon>TestCS.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -249,6 +265,19 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\account2.png" />
+    <None Include="Resources\verify.png" />
+    <None Include="Resources\key.png" />
+    <None Include="Resources\account1.png" />
+    <None Include="Resources\login.png" />
+    <None Include="Resources\setting %281%29.png" />
+    <None Include="Resources\setting.png" />
+    <None Include="Resources\star %282%29.png" />
+    <None Include="Resources\planner %281%29.png" />
+    <None Include="Resources\planner.png" />
+    <None Include="Resources\account.png" />
+    <None Include="Resources\Green White Illustrative Jungle Wild Animals Presentation.png" />
+    <None Include="questions.json" />
     <None Include="Resources\trophy %281%29.png" />
     <None Include="Resources\prize.png" />
     <None Include="Resources\star %281%29.png" />

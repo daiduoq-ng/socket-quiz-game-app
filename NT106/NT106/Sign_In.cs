@@ -12,14 +12,18 @@ namespace NT106
 {
     public partial class Sign_In : Form
     {
+        public delegate void LoginSuccessHandler(string username);
+        public event LoginSuccessHandler OnLoginSuccess;
+
         public Sign_In()
         {
             InitializeComponent();
+            this.Load += Sign_In_Load;
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Reset_Pass  resetpass = new Reset_Pass();
+            Reset_Pass resetpass = new Reset_Pass();
             resetpass.ShowDialog();
         }
 
@@ -29,33 +33,32 @@ namespace NT106
             signup.ShowDialog();
         }
 
-        Modify modify = new Modify();   
+        Modify modify = new Modify();
 
         private void btn_SignIn_Click(object sender, EventArgs e)
         {
             string user_name = textBox_UserName.Text;
             string password = textBox_Password.Text;
-            if(user_name.Trim()=="")
+            if (user_name.Trim() == "")
             {
                 MessageBox.Show("Vui lòng nhập Tên tài khoản!");
             }
-            else if(password.Trim()=="")
+            else if (password.Trim() == "")
             {
                 MessageBox.Show("Vui lòng nhập mật khẩu!");
             }
             else
             {
-                string query = "Select * from TaiKhoan where UserName = '" +user_name+"' and PassWord = '"+password+"'";
-                if(modify.Users(query).Count!=0)
+                string query = "Select * from TaiKhoan where UserName = '" + user_name + "' and PassWord = '" + password + "'";
+                if (modify.Users(query).Count != 0)
                 {
-                    MessageBox.Show("Đăng nhập thành công!","Succes",MessageBoxButtons.OK,MessageBoxIcon.Information);
-                    this.Hide();
+                    MessageBox.Show("Đăng nhập thành công!", "Succes", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    // this.Hide();
+                    OnLoginSuccess?.Invoke(user_name);
 
-                    //Chỗ này là mở form sau khi đăng nhập thành công nè
-                    //ở đây mở cái form tên là Form_Game để test\
-                    Form_Game  Game = new Form_Game(); 
-                    Game.ShowDialog();
-                    this.Close();
+                    HomePage home = new HomePage(user_name);
+                    home.Show();
+                    
 
                 }
                 else
@@ -64,5 +67,20 @@ namespace NT106
                 }
             }
         }
+
+        private void Sign_In_Load(object sender, EventArgs e)
+        {
+            // Tạo một đối tượng của Sign_In và gán sự kiện OnLoginSuccess
+            Sign_In signInForm = new Sign_In();
+            signInForm.OnLoginSuccess += OpenHomePage;
+        }
+
+        private void OpenHomePage(string username)
+        {
+            // Mở form HomePage và truyền thông tin người dùng
+            HomePage homePage = new HomePage(username);
+            homePage.Show();
+        }
     }
 }
+

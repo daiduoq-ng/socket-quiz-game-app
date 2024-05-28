@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace NT106
 {
-    public partial class Form_QuestionMC : Form
+    public partial class Form_Score : Form
     {
-        public Form_QuestionMC()
+        public Form_Score()
         {
             InitializeComponent();
         }

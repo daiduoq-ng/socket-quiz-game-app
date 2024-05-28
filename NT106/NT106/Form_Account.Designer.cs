@@ -50,7 +50,7 @@
             this.lbDoiAvt.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbDoiAvt.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbDoiAvt.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.lbDoiAvt.Location = new System.Drawing.Point(329, 152);
+            this.lbDoiAvt.Location = new System.Drawing.Point(320, 172);
             this.lbDoiAvt.Name = "lbDoiAvt";
             this.lbDoiAvt.Size = new System.Drawing.Size(172, 20);
             this.lbDoiAvt.TabIndex = 1;
@@ -62,7 +62,7 @@
             this.lbHoTen.AutoSize = true;
             this.lbHoTen.Font = new System.Drawing.Font("Comic Sans MS", 14F, System.Drawing.FontStyle.Bold);
             this.lbHoTen.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.lbHoTen.Location = new System.Drawing.Point(322, 182);
+            this.lbHoTen.Location = new System.Drawing.Point(313, 202);
             this.lbHoTen.Name = "lbHoTen";
             this.lbHoTen.Size = new System.Drawing.Size(179, 35);
             this.lbHoTen.TabIndex = 2;
@@ -73,7 +73,7 @@
             this.lbID.AutoSize = true;
             this.lbID.Font = new System.Drawing.Font("Comic Sans MS", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbID.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.lbID.Location = new System.Drawing.Point(277, 231);
+            this.lbID.Location = new System.Drawing.Point(268, 251);
             this.lbID.Name = "lbID";
             this.lbID.Size = new System.Drawing.Size(127, 25);
             this.lbID.TabIndex = 3;
@@ -84,7 +84,7 @@
             this.lbRank.AutoSize = true;
             this.lbRank.Font = new System.Drawing.Font("Comic Sans MS", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbRank.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.lbRank.Location = new System.Drawing.Point(432, 231);
+            this.lbRank.Location = new System.Drawing.Point(423, 251);
             this.lbRank.Name = "lbRank";
             this.lbRank.Size = new System.Drawing.Size(155, 25);
             this.lbRank.TabIndex = 4;
@@ -95,7 +95,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Comic Sans MS", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.label5.Location = new System.Drawing.Point(407, 231);
+            this.label5.Location = new System.Drawing.Point(398, 251);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(19, 25);
             this.label5.TabIndex = 5;
@@ -145,11 +145,11 @@
             // 
             // pbAvt
             // 
-            this.pbAvt.BackgroundImage = global::NT106.Properties.Resources.profile_user__4_;
             this.pbAvt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pbAvt.Location = new System.Drawing.Point(360, 43);
             this.pbAvt.Name = "pbAvt";
             this.pbAvt.Size = new System.Drawing.Size(115, 106);
+            this.pbAvt.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbAvt.TabIndex = 0;
             this.pbAvt.TabStop = false;
             // 
@@ -172,6 +172,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form_Account";
             this.Text = "Form_Account";
+            this.Load += new System.EventHandler(this.Form_Account_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbAvt)).EndInit();
@@ -181,8 +182,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pbAvt;
         private System.Windows.Forms.Label lbDoiAvt;
         private System.Windows.Forms.Label lbHoTen;
         private System.Windows.Forms.Label lbID;
@@ -192,5 +191,6 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label lbEmail;
         private System.Windows.Forms.Label lbBDay;
+        private System.Windows.Forms.PictureBox pbAvt;
     }
 }
