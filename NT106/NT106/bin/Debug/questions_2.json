@@ -1,0 +1,54 @@
+﻿{
+  "questions": [
+    {
+      "question": "Quả gì tên gọi như hoa, Thu về chín đỏ như sơn son?",
+      "choices": [ "Quả Mít", "Quả Hồng", "Quả Sầu Riêng", "Quả Bơ" ],
+      "answer": 1
+    },
+    {
+      "question": "Trông xa tưởng nhím, nhìn gần hóa không, Là quả gì?",
+      "choices": [ "Quả Chôm Chôm", "Quả Mít", "Quả Sim", "Quả Mận" ],
+      "answer": 0
+    },
+    {
+      "question": "Quả gì ở tận trên cao, Không phải giếng đào mà có nước trong?",
+      "choices": [ "Quả Gấc", "Quả Thanh Long", "Quả Cam", "Quả Dừa" ],
+      "answer": 3
+    },
+    {
+      "question": "Da cóc mà bọc trứng gà, Bổ ra thơm phức, cả nhà muốn ăn?",
+      "choices": [ "Quả Chôm Chôm", "Quả Mít", "Quả Sim", "Quả Mận" ],
+      "answer": 1
+    },
+    {
+      "question": "Quê em ở chốn đảo xa, An Tiêm thuở ấy làm quà tặng vua, Là quả gì?",
+      "choices": [ "Quả Dưa Hấu", "Quả Dừa", "Quả Cam", "Quả Hồng" ],
+      "answer": 0
+    },
+    {
+      "question": "Quả gì như quả bóng xanh, Đung đưa trên cành chờ tết Trung thu?",
+      "choices": [ "Quả Gấc", "Quả Nho", "Quả Bưởi", "Quả Dứa" ],
+      "answer": 2
+    },
+    {
+      "question": "Quả gì thường ở trên giàn, Từng chùm chín mọng mang toàn chữ o?",
+      "choices": [ "Quả Quýt", "Quả Dừa", "Quả Vải", "Quả Nho" ],
+      "answer": 3
+    },
+    {
+      "question": "Có mùi, có khía vàng au, Chim khôn ăn quả hẹn sau trả vàng, Là quả gì?",
+      "choices": [ "Quả Khế", "Quả Dừa", "Quả Me", "Quả Lê" ],
+      "answer": 2
+    },
+    {
+      "question": "Chiếc hũ nho nhỏ, Trong đựng bánh vàng, Bóc bánh mời làng, Lại ra ngọc trắng - Là quả gì?",
+      "choices": [ "Quả Nhãn", "Quả Sim", "Quả Lê", "Quả Dưa Hấu" ],
+      "answer": 0
+    },
+    {
+      "question": "Ruột trắng như bột, Rắc hột vừng đen, Mặc áo đỏ hồng Tóc xanh ngăn ngắt - Là quả gì ?",
+      "choices": [ "Quả Cam", "Quả Mít", "Quả thanh long", "Quả Na" ],
+      "answer": 2
+    }
+  ]
+}

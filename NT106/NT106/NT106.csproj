@@ -52,7 +52,7 @@
       <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System">
-      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll</HintPath>
     </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -265,6 +265,8 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
+    <None Include="questions_3.json" />
+    <None Include="questions_2.json" />
     <None Include="Resources\account2.png" />
     <None Include="Resources\verify.png" />
     <None Include="Resources\key.png" />
@@ -277,7 +279,7 @@
     <None Include="Resources\planner.png" />
     <None Include="Resources\account.png" />
     <None Include="Resources\Green White Illustrative Jungle Wild Animals Presentation.png" />
-    <None Include="questions.json" />
+    <None Include="questions_1.json" />
     <None Include="Resources\trophy %281%29.png" />
     <None Include="Resources\prize.png" />
     <None Include="Resources\star %281%29.png" />

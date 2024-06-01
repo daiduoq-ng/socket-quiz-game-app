@@ -1,9 +1,11 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -49,21 +51,39 @@ namespace NT106
             }
             else
             {
-                string query = "Select * from TaiKhoan where UserName = '" + user_name + "' and PassWord = '" + password + "'";
-                if (modify.Users(query).Count != 0)
+                // Gửi yêu cầu đăng nhập đến server
+                var loginRequest = new
                 {
-                    MessageBox.Show("Đăng nhập thành công!", "Succes", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    // this.Hide();
-                    OnLoginSuccess?.Invoke(user_name);
+                    type = "login",
+                    username = user_name,
+                    password = password
+                };
+                string requestData = JsonConvert.SerializeObject(loginRequest);
+                byte[] data = Encoding.UTF8.GetBytes(requestData);
 
-                    HomePage home = new HomePage(user_name);
-                    home.Show();
-                    
-
-                }
-                else
+                using (Socket client = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.IP))
                 {
-                    MessageBox.Show("Tên Tài khoản hoặc Mật khẩu không chính xác!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    client.Connect("127.0.0.1", 8080);
+                    client.Send(data);
+
+                    byte[] buffer = new byte[1024];
+                    int receivedBytes = client.Receive(buffer);
+                    string response = Encoding.UTF8.GetString(buffer, 0, receivedBytes);
+                    dynamic responseObject = JsonConvert.DeserializeObject(response);
+
+                    if (responseObject.status == "success")
+                    {
+                        MessageBox.Show(responseObject.message.ToString(), "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        OnLoginSuccess?.Invoke(user_name);
+
+                        HomePage home = new HomePage(user_name);
+                        home.Show();
+                        this.Close();
+                    }
+                    else
+                    {
+                        MessageBox.Show(responseObject.message.ToString(), "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                 }
             }
         }

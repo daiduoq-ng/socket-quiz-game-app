@@ -119,13 +119,14 @@ namespace NT106
             {
                 while (true)
                 {
-                    byte[] buffer = new byte[1024];
+                    byte[] buffer = new byte[102400];
                     int bytesRead = client.Receive(buffer);
                     questionJson = Encoding.UTF8.GetString(buffer, 0, bytesRead); // Chuyển đổi dữ liệu từ byte array sang chuỗi
-                    MessageBox.Show("Đã nhận được câu hỏi từ server.");
-
+                    MessageBox.Show("Cuộc thi đã bắt đầu. Hãy tham gia ngay!.");
+                   
                   
                     Form_Event formEvent = new Form_Event(this, questionJson);
+                    
                     
                 }
             }
