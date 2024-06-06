@@ -12,9 +12,11 @@ namespace NT106
 {
     public partial class TestCS : Form
     {
+        
         public TestCS()
         {
             InitializeComponent();
+            btnClient.Enabled = false;
         }
 
         private void btnServer_Click(object sender, EventArgs e)
@@ -22,6 +24,7 @@ namespace NT106
             Server f = new Server();
             f.Show();
             btnServer.Enabled = false;
+            btnClient.Enabled = true;
         }
 
         private void btnClient_Click(object sender, EventArgs e)

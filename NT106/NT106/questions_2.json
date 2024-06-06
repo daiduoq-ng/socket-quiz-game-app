@@ -13,7 +13,7 @@
     {
       "question": "Con sông dài nhất thế giới là sông nào?",
       "choices": [ "Sông Nile", "Sông Amazon", "Sông Danube", "Sông Mississippi" ],
-      "answer": 0
+      "answer": 1
     },
     {
       "question": "Quốc gia nào có diện tích lớn nhất trên thế giới?",
@@ -27,7 +27,7 @@
     },
     {
       "question": "Tên của quốc gia nhỏ nhất trên thế giới là gì?",
-      "choices": [ "Singapore", "Vatican, ", "Monaco", "San Marino" ],
+      "choices": [ "Singapore", "Vatican", "Monaco", "San Marino" ],
       "answer": 1
     },
     {

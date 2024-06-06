@@ -76,7 +76,7 @@ namespace NT106
             if (TimeLimitInSeconds <= 0)
             {
                 questionTimer.Stop();
-                MoveToNextQuestion();
+                MoveToNextQuestion(isContinue);
                 TimeLimitInSeconds = 20; 
             }
             if (currentQuestionIndex == questions.Count)
@@ -86,8 +86,16 @@ namespace NT106
             }
         }
 
-        private async void MoveToNextQuestion()
+        private async void MoveToNextQuestion(bool isContinue)
         {
+            if (!isContinue)
+            {
+                lbA.Enabled = false;
+                lbB.Enabled = false;
+                lbC.Enabled = false;
+                lbD.Enabled = false;
+                
+            }
             currentQuestionIndex++;
             if (currentQuestionIndex < questions.Count)
             {
@@ -98,12 +106,13 @@ namespace NT106
             else
             {
                 MessageBox.Show("Đã hoàn thành tất cả các câu hỏi. Điểm của bạn: " + score);
-                lbA.Enabled = false;
-                lbB.Enabled = false;
-                lbC.Enabled = false;
-                lbD.Enabled = false;
+                /* lbA.Enabled = false;
+                 lbB.Enabled = false;
+                 lbC.Enabled = false;
+                 lbD.Enabled = false;*/
                 this.Close();
             }
+
         }
         private async Task SendScoreToServer()
         {
@@ -235,7 +244,7 @@ namespace NT106
             answerPlayer = tbD.Text;
             CheckAnswer();
         }
-     //   private bool play = true;
+        private bool isContinue = true;
         private void CheckAnswer()
         {
                 bool isCorrect = answerServer.Equals(answerPlayer, StringComparison.OrdinalIgnoreCase);
@@ -251,7 +260,12 @@ namespace NT106
                 else if (!isCorrect && cb25.Checked == false && cb2x.Checked == false && cb50.Checked == false && cb75.Checked == false)
                 {
                     lbNoitice.Text = "Câu trả lời không chính xác! Bạn không được điểm";
-                }
+                    isContinue = false;
+                   /* lbA.Enabled = false;
+                    lbB.Enabled = false;
+                    lbC.Enabled = false;
+                    lbD.Enabled = false;*/
+            }
                 else
                 {
                     score -= bettingPoints;
@@ -264,7 +278,7 @@ namespace NT106
                 }
             
                 lbScore.Text = "Your Score: " + score.ToString();
-                MoveToNextQuestion();
+                MoveToNextQuestion(isContinue);
             
         }
 

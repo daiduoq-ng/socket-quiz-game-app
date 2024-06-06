@@ -199,6 +199,7 @@
             // 
             this.tbScoreHang6.BackColor = System.Drawing.Color.Transparent;
             this.tbScoreHang6.Br = System.Drawing.Color.MintCream;
+            this.tbScoreHang6.Enabled = false;
             this.tbScoreHang6.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbScoreHang6.ForeColor = System.Drawing.Color.MediumSeaGreen;
             this.tbScoreHang6.Location = new System.Drawing.Point(508, 361);
@@ -212,6 +213,7 @@
             // 
             this.tbNameHang6.BackColor = System.Drawing.Color.Transparent;
             this.tbNameHang6.Br = System.Drawing.Color.MintCream;
+            this.tbNameHang6.Enabled = false;
             this.tbNameHang6.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbNameHang6.ForeColor = System.Drawing.Color.MediumSeaGreen;
             this.tbNameHang6.Location = new System.Drawing.Point(183, 364);
@@ -225,6 +227,7 @@
             // 
             this.tbScoreHang5.BackColor = System.Drawing.Color.Transparent;
             this.tbScoreHang5.Br = System.Drawing.Color.MintCream;
+            this.tbScoreHang5.Enabled = false;
             this.tbScoreHang5.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbScoreHang5.ForeColor = System.Drawing.Color.MediumSeaGreen;
             this.tbScoreHang5.Location = new System.Drawing.Point(508, 322);
@@ -238,6 +241,7 @@
             // 
             this.tbScoreHang4.BackColor = System.Drawing.Color.Transparent;
             this.tbScoreHang4.Br = System.Drawing.Color.MintCream;
+            this.tbScoreHang4.Enabled = false;
             this.tbScoreHang4.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbScoreHang4.ForeColor = System.Drawing.Color.MediumSeaGreen;
             this.tbScoreHang4.Location = new System.Drawing.Point(508, 281);
@@ -251,6 +255,7 @@
             // 
             this.tbNameHang5.BackColor = System.Drawing.Color.Transparent;
             this.tbNameHang5.Br = System.Drawing.Color.MintCream;
+            this.tbNameHang5.Enabled = false;
             this.tbNameHang5.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbNameHang5.ForeColor = System.Drawing.Color.MediumSeaGreen;
             this.tbNameHang5.Location = new System.Drawing.Point(183, 323);
@@ -264,6 +269,7 @@
             // 
             this.tbNameHang4.BackColor = System.Drawing.Color.Transparent;
             this.tbNameHang4.Br = System.Drawing.Color.MintCream;
+            this.tbNameHang4.Enabled = false;
             this.tbNameHang4.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbNameHang4.ForeColor = System.Drawing.Color.MediumSeaGreen;
             this.tbNameHang4.Location = new System.Drawing.Point(183, 284);

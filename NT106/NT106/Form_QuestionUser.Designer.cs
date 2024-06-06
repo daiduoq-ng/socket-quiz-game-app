@@ -38,7 +38,6 @@
             this.lbA = new System.Windows.Forms.Label();
             this.lbScore = new System.Windows.Forms.Label();
             this.lbNoitice = new System.Windows.Forms.Label();
-            this.tbRealTime = new NT106.UserControls.TextBoxElipse();
             this.tbTime = new NT106.UserControls.TextBoxElipse();
             this.tbD = new NT106.UserControls.TextBoxElipse();
             this.tbC = new NT106.UserControls.TextBoxElipse();
@@ -106,7 +105,7 @@
             this.lbD.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbD.Font = new System.Drawing.Font("Comic Sans MS", 13F, System.Drawing.FontStyle.Bold);
             this.lbD.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.lbD.Location = new System.Drawing.Point(431, 444);
+            this.lbD.Location = new System.Drawing.Point(429, 426);
             this.lbD.Name = "lbD";
             this.lbD.Size = new System.Drawing.Size(30, 31);
             this.lbD.TabIndex = 45;
@@ -119,7 +118,7 @@
             this.lbB.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbB.Font = new System.Drawing.Font("Comic Sans MS", 13F, System.Drawing.FontStyle.Bold);
             this.lbB.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.lbB.Location = new System.Drawing.Point(431, 359);
+            this.lbB.Location = new System.Drawing.Point(431, 356);
             this.lbB.Name = "lbB";
             this.lbB.Size = new System.Drawing.Size(28, 31);
             this.lbB.TabIndex = 44;
@@ -132,7 +131,7 @@
             this.lbC.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbC.Font = new System.Drawing.Font("Comic Sans MS", 13F, System.Drawing.FontStyle.Bold);
             this.lbC.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.lbC.Location = new System.Drawing.Point(63, 444);
+            this.lbC.Location = new System.Drawing.Point(4, 426);
             this.lbC.Name = "lbC";
             this.lbC.Size = new System.Drawing.Size(28, 31);
             this.lbC.TabIndex = 43;
@@ -145,7 +144,7 @@
             this.lbA.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbA.Font = new System.Drawing.Font("Comic Sans MS", 13F, System.Drawing.FontStyle.Bold);
             this.lbA.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.lbA.Location = new System.Drawing.Point(63, 359);
+            this.lbA.Location = new System.Drawing.Point(3, 356);
             this.lbA.Name = "lbA";
             this.lbA.Size = new System.Drawing.Size(30, 31);
             this.lbA.TabIndex = 42;
@@ -173,20 +172,6 @@
             this.lbNoitice.TabIndex = 54;
             this.lbNoitice.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // tbRealTime
-            // 
-            this.tbRealTime.BackColor = System.Drawing.Color.Transparent;
-            this.tbRealTime.Br = System.Drawing.Color.White;
-            this.tbRealTime.Enabled = false;
-            this.tbRealTime.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold);
-            this.tbRealTime.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.tbRealTime.Location = new System.Drawing.Point(696, 22);
-            this.tbRealTime.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tbRealTime.Name = "tbRealTime";
-            this.tbRealTime.Size = new System.Drawing.Size(117, 34);
-            this.tbRealTime.TabIndex = 52;
-            this.tbRealTime.Text = "00:00:00";
-            // 
             // tbTime
             // 
             this.tbTime.BackColor = System.Drawing.Color.Transparent;
@@ -209,10 +194,10 @@
             this.tbD.Enabled = false;
             this.tbD.Font = new System.Drawing.Font("Comic Sans MS", 13F, System.Drawing.FontStyle.Bold);
             this.tbD.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.tbD.Location = new System.Drawing.Point(464, 432);
+            this.tbD.Location = new System.Drawing.Point(463, 420);
             this.tbD.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbD.Name = "tbD";
-            this.tbD.Size = new System.Drawing.Size(324, 43);
+            this.tbD.Size = new System.Drawing.Size(379, 43);
             this.tbD.TabIndex = 41;
             this.tbD.Text = "textBoxElipse4";
             // 
@@ -224,10 +209,10 @@
             this.tbC.Enabled = false;
             this.tbC.Font = new System.Drawing.Font("Comic Sans MS", 13F, System.Drawing.FontStyle.Bold);
             this.tbC.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.tbC.Location = new System.Drawing.Point(97, 432);
+            this.tbC.Location = new System.Drawing.Point(36, 420);
             this.tbC.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbC.Name = "tbC";
-            this.tbC.Size = new System.Drawing.Size(324, 43);
+            this.tbC.Size = new System.Drawing.Size(389, 43);
             this.tbC.TabIndex = 40;
             this.tbC.Text = "textBoxElipse3";
             // 
@@ -239,10 +224,10 @@
             this.tbA.Enabled = false;
             this.tbA.Font = new System.Drawing.Font("Comic Sans MS", 13F, System.Drawing.FontStyle.Bold);
             this.tbA.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.tbA.Location = new System.Drawing.Point(97, 351);
+            this.tbA.Location = new System.Drawing.Point(36, 350);
             this.tbA.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbA.Name = "tbA";
-            this.tbA.Size = new System.Drawing.Size(324, 43);
+            this.tbA.Size = new System.Drawing.Size(389, 43);
             this.tbA.TabIndex = 38;
             this.tbA.Text = "textBoxElipse1";
             // 
@@ -254,10 +239,10 @@
             this.tbB.Enabled = false;
             this.tbB.Font = new System.Drawing.Font("Comic Sans MS", 13F, System.Drawing.FontStyle.Bold);
             this.tbB.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.tbB.Location = new System.Drawing.Point(464, 351);
+            this.tbB.Location = new System.Drawing.Point(463, 350);
             this.tbB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbB.Name = "tbB";
-            this.tbB.Size = new System.Drawing.Size(324, 43);
+            this.tbB.Size = new System.Drawing.Size(379, 43);
             this.tbB.TabIndex = 39;
             this.tbB.Text = "textBoxElipse2";
             // 
@@ -295,7 +280,6 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lbQuestion);
             this.Controls.Add(this.lbNoitice);
-            this.Controls.Add(this.tbRealTime);
             this.Controls.Add(this.tbTime);
             this.Controls.Add(this.tbD);
             this.Controls.Add(this.tbC);
@@ -322,8 +306,6 @@
         }
 
         #endregion
-
-        private UserControls.TextBoxElipse tbRealTime;
         private UserControls.TextBoxElipse tbTime;
         private UserControls.TextBoxElipse tbD;
         private UserControls.TextBoxElipse tbC;

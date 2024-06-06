@@ -65,7 +65,7 @@
             this.lbEvent1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbEvent1.Font = new System.Drawing.Font("Comic Sans MS", 14F, System.Drawing.FontStyle.Bold);
             this.lbEvent1.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.lbEvent1.Location = new System.Drawing.Point(193, 238);
+            this.lbEvent1.Location = new System.Drawing.Point(165, 256);
             this.lbEvent1.Name = "lbEvent1";
             this.lbEvent1.Size = new System.Drawing.Size(483, 37);
             this.lbEvent1.TabIndex = 9;
@@ -76,9 +76,10 @@
             // 
             this.textBoxElipse1.BackColor = System.Drawing.Color.Transparent;
             this.textBoxElipse1.Br = System.Drawing.Color.MediumSeaGreen;
+            this.textBoxElipse1.Enabled = false;
             this.textBoxElipse1.Font = new System.Drawing.Font("Comic Sans MS", 11F);
             this.textBoxElipse1.ForeColor = System.Drawing.Color.DimGray;
-            this.textBoxElipse1.Location = new System.Drawing.Point(111, 204);
+            this.textBoxElipse1.Location = new System.Drawing.Point(126, 218);
             this.textBoxElipse1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBoxElipse1.Name = "textBoxElipse1";
             this.textBoxElipse1.Size = new System.Drawing.Size(647, 110);
