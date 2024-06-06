@@ -1,1 +1,0 @@
-﻿update TaiKhoan set Status = 'Offline'
