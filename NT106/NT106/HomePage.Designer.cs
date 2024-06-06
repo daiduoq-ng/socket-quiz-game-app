@@ -36,7 +36,6 @@
             this.btnEvent = new System.Windows.Forms.Button();
             this.btnAccount = new System.Windows.Forms.Button();
             this.panelBody = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -163,9 +162,7 @@
             // panelBody
             // 
             this.panelBody.BackColor = System.Drawing.Color.MintCream;
-            this.panelBody.BackgroundImage = global::NT106.Properties.Resources.Green_White_Illustrative_Jungle_Wild_Animals_Presentation;
-            this.panelBody.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelBody.Controls.Add(this.button1);
+            this.panelBody.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.panelBody.Controls.Add(this.label1);
             this.panelBody.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelBody.Location = new System.Drawing.Point(192, 0);
@@ -174,21 +171,10 @@
             this.panelBody.Size = new System.Drawing.Size(847, 514);
             this.panelBody.TabIndex = 1;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(692, 281);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 28);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(317, 467);
+            this.label1.Location = new System.Drawing.Point(317, 466);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(44, 16);
             this.label1.TabIndex = 6;
@@ -197,7 +183,6 @@
             // pictureBox11
             // 
             this.pictureBox11.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.pictureBox11.BackgroundImage = global::NT106.Properties.Resources.star__2_;
             this.pictureBox11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox11.Location = new System.Drawing.Point(12, 334);
             this.pictureBox11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -221,7 +206,6 @@
             // pictureBox7
             // 
             this.pictureBox7.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.pictureBox7.BackgroundImage = global::NT106.Properties.Resources.planner__1_;
             this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox7.Location = new System.Drawing.Point(12, 130);
             this.pictureBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -233,7 +217,6 @@
             // pictureBox6
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.pictureBox6.BackgroundImage = global::NT106.Properties.Resources.account;
             this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox6.Location = new System.Drawing.Point(12, 26);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -245,7 +228,6 @@
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.pictureBox5.BackgroundImage = global::NT106.Properties.Resources.setting__1_;
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox5.Location = new System.Drawing.Point(12, 441);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -275,6 +257,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "HomePage";
             this.Text = "    ";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.HomePage_FormClosing);
             this.Load += new System.EventHandler(this.HomePage_Load);
             this.panelLeft.ResumeLayout(false);
             this.panelBody.ResumeLayout(false);
@@ -305,6 +288,5 @@
         private System.Windows.Forms.PictureBox pictureBox11;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
     }
 }

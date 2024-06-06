@@ -75,5 +75,28 @@ namespace NT106
             ChinhSachRiengTu f = new ChinhSachRiengTu();
             f.Show();
         }
+
+        private void btn_LogOut_Click_1(object sender, EventArgs e)
+        {
+            this.ResetForm();
+        }
+
+        private void ResetForm()
+        {
+            // Đóng form HomePage nếu nó đang mở
+            foreach (Form form in Application.OpenForms)
+            {
+                if (form is HomePage)
+                {
+                    form.Close();
+                    break; // Kết thúc vòng lặp sau khi đã tìm thấy và đóng form HomePage
+                }
+            }
+
+            // Mở lại form đăng nhập
+            Sign_In loginForm = new Sign_In();
+            loginForm.Show();
+        }
+
     }
 }

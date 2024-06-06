@@ -1,107 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\",
+  "WorkspaceRootPath": "C:\\Users\\vukie\\M\u00E1y t\u00EDnh\\NT106-Final-main (1) (1)\\NT106-Final-main\\NT106\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|c:\\users\\admin\\documents\\zalo received files\\nt106-final\\nt106-final\\nt106-final\\nt106\\nt106\\questions.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|solutionrelative:nt106\\questions.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|c:\\users\\vukie\\m\u00E1y t\u00EDnh\\nt106-final-main (1) (1)\\nt106-final-main\\nt106\\nt106\\form_bxh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|solutionrelative:nt106\\form_bxh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\nt106\\form_questionuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|solutionrelative:nt106\\form_questionuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|c:\\users\\vukie\\m\u00E1y t\u00EDnh\\nt106-final-main (1) (1)\\nt106-final-main\\nt106\\nt106\\sign_in.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|solutionrelative:nt106\\sign_in.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\nt106\\form_questionuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|solutionrelative:nt106\\form_questionuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\nt106\\form_infor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|solutionrelative:nt106\\form_infor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|c:\\users\\admin\\documents\\zalo received files\\nt106-final\\nt106-final\\nt106-final\\nt106\\nt106\\form_guides.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|solutionrelative:nt106\\form_guides.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|c:\\users\\admin\\documents\\zalo received files\\nt106-final\\nt106-final\\nt106-final\\nt106\\nt106\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|solutionrelative:nt106\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|c:\\users\\admin\\documents\\zalo received files\\nt106-final\\nt106-final\\nt106-final\\nt106\\nt106\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|C:\\Users\\vukie\\M\u00E1y t\u00EDnh\\NT106-Final-main (1) (1)\\NT106-Final-main\\NT106\\nt106\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|solutionrelative:nt106\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\nt106\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|solutionrelative:nt106\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|c:\\users\\admin\\documents\\zalo received files\\nt106-final\\nt106-final\\nt106-final\\nt106\\nt106\\testcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|solutionrelative:nt106\\testcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\nt106\\form_event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|solutionrelative:nt106\\form_event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\nt106\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|solutionrelative:nt106\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\nt106\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|solutionrelative:nt106\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\nt106\\sign_in.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|solutionrelative:nt106\\sign_in.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\nt106\\form_setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|solutionrelative:nt106\\form_setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ADMIN_DOCUMENTS_ZALO_RECEIVED_FILES_NT106_FINAL_NT106_FINAL_NT106_FINAL_NT106_NT106_DATABASE1.MDF/True/SqlTable/dbo.TaiKhoan.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\nt106\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|solutionrelative:nt106\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\nt106\\form_setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|solutionrelative:nt106\\form_setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\nt106\\form_bxh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|C:\\Users\\vukie\\M\u00E1y t\u00EDnh\\NT106-Final-main (1) (1)\\NT106-Final-main\\NT106\\nt106\\form_bxh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|solutionrelative:nt106\\form_bxh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/F__NT106_CUOI_KI_NT106_FINAL_NT106_NT106_DATABASE1.MDF/True/SqlTable/dbo.TaiKhoan.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|c:\\users\\vukie\\m\u00E1y t\u00EDnh\\nt106-final-main (1) (1)\\nt106-final-main\\nt106\\nt106\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|solutionrelative:nt106\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/E__NEW_FOLDER_NT106_NT106_DATABASE1.MDF/True/SqlTable/dbo.TaiKhoan.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|C:\\Users\\vukie\\M\u00E1y t\u00EDnh\\NT106-Final-main (1) (1)\\NT106-Final-main\\NT106\\nt106\\form_questionuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|solutionrelative:nt106\\form_questionuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\nt106\\reset_pass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|solutionrelative:nt106\\reset_pass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\nt106\\reset_pass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|solutionrelative:nt106\\reset_pass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\nt106\\sign_in.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|solutionrelative:nt106\\sign_in.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\nt106\\sign_up.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|solutionrelative:nt106\\sign_up.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\nt106\\form_game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:nt106\\form_game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\nt106\\form_game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:nt106\\form_game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|C:\\Users\\vukie\\M\u00E1y t\u00EDnh\\NT106-Final-main (1) (1)\\NT106-Final-main\\NT106\\nt106\\form_score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{419D9EAD-59AD-4FEB-A579-526D3821DC3E}|NT106\\NT106.csproj|solutionrelative:nt106\\form_score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -111,315 +38,100 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TestCS.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\TestCS.cs",
-              "RelativeDocumentMoniker": "NT106\\TestCS.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\TestCS.cs [Design]",
-              "RelativeToolTip": "NT106\\TestCS.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T10:20:17.745Z",
-              "EditorCaption": " [Design]"
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "question.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\question.cs",
-              "RelativeDocumentMoniker": "NT106\\question.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\question.cs",
-              "RelativeToolTip": "NT106\\question.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "Sign_In.cs",
+              "DocumentMoniker": "C:\\Users\\vukie\\M\u00E1y t\u00EDnh\\NT106-Final-main (1) (1)\\NT106-Final-main\\NT106\\NT106\\Sign_In.cs",
+              "RelativeDocumentMoniker": "NT106\\Sign_In.cs",
+              "ToolTip": "C:\\Users\\vukie\\M\u00E1y t\u00EDnh\\NT106-Final-main (1) (1)\\NT106-Final-main\\NT106\\NT106\\Sign_In.cs",
+              "RelativeToolTip": "NT106\\Sign_In.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAIwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T10:20:15.811Z",
+              "WhenOpened": "2024-06-04T16:55:35.199Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Form_Guides.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\Form_Guides.cs",
-              "RelativeDocumentMoniker": "NT106\\Form_Guides.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\Form_Guides.cs [Design]",
-              "RelativeToolTip": "NT106\\Form_Guides.cs [Design]",
+              "Title": "Server.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\vukie\\M\u00E1y t\u00EDnh\\NT106-Final-main (1) (1)\\NT106-Final-main\\NT106\\NT106\\Server.cs",
+              "RelativeDocumentMoniker": "NT106\\Server.cs",
+              "ToolTip": "C:\\Users\\vukie\\M\u00E1y t\u00EDnh\\NT106-Final-main (1) (1)\\NT106-Final-main\\NT106\\NT106\\Server.cs [Design]",
+              "RelativeToolTip": "NT106\\Server.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T10:17:42.752Z",
+              "WhenOpened": "2024-06-04T16:51:24.181Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form_QuestionUser.cs",
+              "DocumentMoniker": "C:\\Users\\vukie\\M\u00E1y t\u00EDnh\\NT106-Final-main (1) (1)\\NT106-Final-main\\NT106\\NT106\\Form_QuestionUser.cs",
+              "RelativeDocumentMoniker": "NT106\\Form_QuestionUser.cs",
+              "ToolTip": "C:\\Users\\vukie\\M\u00E1y t\u00EDnh\\NT106-Final-main (1) (1)\\NT106-Final-main\\NT106\\NT106\\Form_QuestionUser.cs",
+              "RelativeToolTip": "NT106\\Form_QuestionUser.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAIwFQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T14:37:10.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form_Score.cs",
+              "DocumentMoniker": "C:\\Users\\vukie\\M\u00E1y t\u00EDnh\\NT106-Final-main (1) (1)\\NT106-Final-main\\NT106\\NT106\\Form_Score.cs",
+              "RelativeDocumentMoniker": "NT106\\Form_Score.cs",
+              "ToolTip": "C:\\Users\\vukie\\M\u00E1y t\u00EDnh\\NT106-Final-main (1) (1)\\NT106-Final-main\\NT106\\NT106\\Form_Score.cs",
+              "RelativeToolTip": "NT106\\Form_Score.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAwwGUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T13:52:16.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form_BXH.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\vukie\\M\u00E1y t\u00EDnh\\NT106-Final-main (1) (1)\\NT106-Final-main\\NT106\\NT106\\Form_BXH.cs",
+              "RelativeDocumentMoniker": "NT106\\Form_BXH.cs",
+              "ToolTip": "C:\\Users\\vukie\\M\u00E1y t\u00EDnh\\NT106-Final-main (1) (1)\\NT106-Final-main\\NT106\\NT106\\Form_BXH.cs [Design]",
+              "RelativeToolTip": "NT106\\Form_BXH.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T13:50:07.078Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "questions.json",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\questions.json",
-              "RelativeDocumentMoniker": "NT106\\questions.json",
-              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\questions.json",
-              "RelativeToolTip": "NT106\\questions.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-24T10:16:01.614Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Sign_In.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\Sign_In.cs",
-              "RelativeDocumentMoniker": "NT106\\Sign_In.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\Sign_In.cs [Design]",
-              "RelativeToolTip": "NT106\\Sign_In.cs [Design]",
+              "Title": "Form_BXH.cs",
+              "DocumentMoniker": "C:\\Users\\vukie\\M\u00E1y t\u00EDnh\\NT106-Final-main (1) (1)\\NT106-Final-main\\NT106\\NT106\\Form_BXH.cs",
+              "RelativeDocumentMoniker": "NT106\\Form_BXH.cs",
+              "ToolTip": "C:\\Users\\vukie\\M\u00E1y t\u00EDnh\\NT106-Final-main (1) (1)\\NT106-Final-main\\NT106\\NT106\\Form_BXH.cs",
+              "RelativeToolTip": "NT106\\Form_BXH.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAwwBwAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T09:28:25.064Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "HomePage.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\HomePage.cs",
-              "RelativeDocumentMoniker": "NT106\\HomePage.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\HomePage.cs",
-              "RelativeToolTip": "NT106\\HomePage.cs",
-              "ViewState": "AQIAAGEAAAAAAAAAAAAYwHsAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T09:24:23.643Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "HomePage.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\HomePage.cs",
-              "RelativeDocumentMoniker": "NT106\\HomePage.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\HomePage.cs [Design]",
-              "RelativeToolTip": "NT106\\HomePage.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T09:24:22.886Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form_QuestionUser.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\Form_QuestionUser.cs",
-              "RelativeDocumentMoniker": "NT106\\Form_QuestionUser.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\Form_QuestionUser.cs",
-              "RelativeToolTip": "NT106\\Form_QuestionUser.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBYAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T08:41:33.981Z",
+              "WhenOpened": "2024-06-04T13:49:20.44Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Form_QuestionUser.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\Form_QuestionUser.cs",
-              "RelativeDocumentMoniker": "NT106\\Form_QuestionUser.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\Form_QuestionUser.cs [Design]",
-              "RelativeToolTip": "NT106\\Form_QuestionUser.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T08:41:32.53Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Server.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\Server.cs",
+              "DocumentMoniker": "C:\\Users\\vukie\\M\u00E1y t\u00EDnh\\NT106-Final-main (1) (1)\\NT106-Final-main\\NT106\\NT106\\Server.cs",
               "RelativeDocumentMoniker": "NT106\\Server.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\Server.cs",
+              "ToolTip": "C:\\Users\\vukie\\M\u00E1y t\u00EDnh\\NT106-Final-main (1) (1)\\NT106-Final-main\\NT106\\NT106\\Server.cs",
               "RelativeToolTip": "NT106\\Server.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAMwGUAAAAJAAAA",
+              "ViewState": "AQIAAMoAAAAAAAAAAAAswMwAAACJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T08:39:36.021Z",
+              "WhenOpened": "2024-06-03T07:07:46.814Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Form_Event.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\Form_Event.cs",
-              "RelativeDocumentMoniker": "NT106\\Form_Event.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\Form_Event.cs [Design]",
-              "RelativeToolTip": "NT106\\Form_Event.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T08:39:31.679Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "dbo.TaiKhoan [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ADMIN_DOCUMENTS_ZALO_RECEIVED_FILES_NT106_FINAL_NT106_FINAL_NT106_FINAL_NT106_NT106_DATABASE1.MDF/True/SqlTable/dbo.TaiKhoan.sql",
-              "ToolTip": "dbo.TaiKhoan [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-05-24T08:38:06.315Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Server.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\Server.cs",
-              "RelativeDocumentMoniker": "NT106\\Server.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\Server.cs [Design]",
-              "RelativeToolTip": "NT106\\Server.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T16:08:24.261Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Form_Setting.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\Form_Setting.cs",
-              "RelativeDocumentMoniker": "NT106\\Form_Setting.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\Form_Setting.cs",
-              "RelativeToolTip": "NT106\\Form_Setting.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwDUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T15:09:15.634Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Form_Setting.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\Form_Setting.cs",
-              "RelativeDocumentMoniker": "NT106\\Form_Setting.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\Form_Setting.cs [Design]",
-              "RelativeToolTip": "NT106\\Form_Setting.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T15:08:34.299Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form_Infor.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\Form_Infor.cs",
-              "RelativeDocumentMoniker": "NT106\\Form_Infor.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\Form_Infor.cs [Design]",
-              "RelativeToolTip": "NT106\\Form_Infor.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T15:08:33.674Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\User.cs",
-              "RelativeDocumentMoniker": "NT106\\User.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\User.cs",
-              "RelativeToolTip": "NT106\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T15:08:28.33Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Form_BXH.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\Form_BXH.cs",
-              "RelativeDocumentMoniker": "NT106\\Form_BXH.cs",
-              "ToolTip": "F:\\NT106 Cuoi ki\\NT106-Final\\NT106\\NT106\\Form_BXH.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T15:04:08.19Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "dbo.TaiKhoan [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/F__NT106_CUOI_KI_NT106_FINAL_NT106_NT106_DATABASE1.MDF/True/SqlTable/dbo.TaiKhoan.sql",
-              "ToolTip": "dbo.TaiKhoan [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-05-12T15:02:22.134Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Form_Game.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\Form_Game.cs",
-              "RelativeDocumentMoniker": "NT106\\Form_Game.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\Form_Game.cs",
-              "RelativeToolTip": "NT106\\Form_Game.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAawB4AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T15:35:57.076Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Reset_Pass.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\Reset_Pass.cs",
-              "RelativeDocumentMoniker": "NT106\\Reset_Pass.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\Reset_Pass.cs",
-              "RelativeToolTip": "NT106\\Reset_Pass.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAawCQAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T15:21:45.353Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Reset_Pass.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\Reset_Pass.cs",
-              "RelativeDocumentMoniker": "NT106\\Reset_Pass.cs",
-              "ToolTip": "E:\\New folder\\NT106\\NT106\\Reset_Pass.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T15:21:44.34Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "dbo.TaiKhoan [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/E__NEW_FOLDER_NT106_NT106_DATABASE1.MDF/True/SqlTable/dbo.TaiKhoan.sql",
-              "ToolTip": "dbo.TaiKhoan [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-04-30T15:18:47.188Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Form_Game.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\Form_Game.cs",
-              "RelativeDocumentMoniker": "NT106\\Form_Game.cs",
-              "ToolTip": "F:\\NT106 Cuoi ki\\NT106-Final\\NT106\\NT106\\Form_Game.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T14:03:34.287Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Sign_Up.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\Sign_Up.cs",
-              "RelativeDocumentMoniker": "NT106\\Sign_Up.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\Sign_Up.cs",
-              "RelativeToolTip": "NT106\\Sign_Up.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAswEQAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T09:42:19.951Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Sign_In.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\Sign_In.Designer.cs",
-              "RelativeDocumentMoniker": "NT106\\Sign_In.Designer.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Zalo Received Files\\NT106-Final\\NT106-Final\\NT106-Final\\NT106\\NT106\\Sign_In.Designer.cs",
-              "RelativeToolTip": "NT106\\Sign_In.Designer.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAIAwwDYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T09:13:27.946Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             }
           ]
         }

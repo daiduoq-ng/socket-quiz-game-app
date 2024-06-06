@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 using System.Data.SqlClient;
+using Newtonsoft.Json;
+using System.Net.Sockets;
 
 namespace NT106
 {
@@ -20,23 +22,18 @@ namespace NT106
         {
             InitializeComponent();
             this.username = username;
-            
-
-
         }
 
         public void SetUsername(string username)
         {
             this.username = username;
-            // Update any controls or properties that display the username
-            // For example:
             lbHoTen.Text = username;
         }
 
 
         private void lbDoiAvt_Click(object sender, EventArgs e)
         {
-            
+
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.Filter = "Image files (*.jpg, *.jpeg, *.png, *.gif)|*.jpg;*.jpeg;*.png;*.gif|All files (*.*)|*.*";
             if (openFileDialog.ShowDialog() == DialogResult.OK)
@@ -44,12 +41,13 @@ namespace NT106
                 string imagePath = openFileDialog.FileName;
                 if (pbAvt.BackgroundImage != null)
                 {
-                    pbAvt.BackgroundImage.Dispose(); 
-                    pbAvt.BackgroundImage = null;    
+                    pbAvt.BackgroundImage.Dispose();
+                    pbAvt.BackgroundImage = null;
                 }
 
                 Image newImage = Image.FromFile(imagePath);
                 pbAvt.Image = newImage;
+
                 pbAvt.SizeMode = PictureBoxSizeMode.Zoom;
             }
         }
@@ -57,59 +55,70 @@ namespace NT106
 
         private void Form_Account_Load(object sender, EventArgs e)
         {
-            
-            string query1 = "SELECT Email, ProfileImage FROM TaiKhoan WHERE UserName = @UserName";
-
-            // Tạo kết nối đến cơ sở dữ liệu
-            using (SqlConnection connection = Connection.GetSqlConnection())
+            var loginRequest = new
             {
-                // Mở kết nối
-                connection.Open();
+                type = "getInfo",
+                username = username
+            };
 
-                // Chuẩn bị đối tượng SqlCommand
-                using (SqlCommand command = new SqlCommand(query1, connection))
+            string requestData = JsonConvert.SerializeObject(loginRequest);
+            byte[] data = Encoding.UTF8.GetBytes(requestData);
+
+            using (Socket client = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.IP))
+            {
+                client.Connect("127.0.0.1", 8080);
+                client.Send(data);
+
+                using (var ms = new System.IO.MemoryStream())
                 {
-                    // Thêm tham số cho câu truy vấn SELECT
-                    command.Parameters.AddWithValue("@UserName", username);
-
-                    // Thực thi câu truy vấn SELECT và đọc dữ liệu
-                    using (SqlDataReader reader = command.ExecuteReader())
+                    byte[] buffer = new byte[409600];
+                    int bytesRead;
+                    while ((bytesRead = client.Receive(buffer, buffer.Length, SocketFlags.None)) > 0)
                     {
-                        // Kiểm tra xem có dữ liệu trả về hay không
-                        if (reader.Read())
+                        ms.Write(buffer, 0, bytesRead);
+                        if (bytesRead < buffer.Length)
+                            break;
+                    }
+
+                    string response = Encoding.UTF8.GetString(ms.ToArray());
+                    dynamic responseObject = JsonConvert.DeserializeObject(response);
+
+                    if (responseObject.status == "success")
+                    {
+                        lbEmail.Text = responseObject.email;
+
+                        if (responseObject.profileImage != null)
                         {
-                            // Lấy giá trị của cột Email từ kết quả truy vấn
-                            string userEmail = reader.GetString(0);
-
-                            // Hiển thị email trên giao diện người dùng
-                            lbEmail.Text = userEmail;
-
-                            // Kiểm tra xem cột ProfileImage có dữ liệu không
-                            if (!reader.IsDBNull(1))
+                            try
                             {
-                                // Nếu có, lấy dữ liệu ảnh từ cột ProfileImage
-                                byte[] profileImageBytes = (byte[])reader["ProfileImage"];
-
-                                // Chuyển đổi dữ liệu ảnh thành hình ảnh và hiển thị trên PictureBox
-                                using (var ms = new System.IO.MemoryStream(profileImageBytes))
+                                byte[] profileImageBytes = Convert.FromBase64String((string)responseObject.profileImage);
+                                using (var imageStream = new System.IO.MemoryStream(profileImageBytes))
                                 {
-                                    pbAvt.Image = Image.FromStream(ms);
+                                    pbAvt.SizeMode = PictureBoxSizeMode.Zoom;
+                                    pbAvt.Image = Image.FromStream(imageStream);
                                 }
                             }
-                            else
+                            catch (Exception ex)
                             {
-                                // Nếu không có dữ liệu ảnh, có thể hiển thị một hình mặc định hoặc ẩn điều khiển hình ảnh
-                                // Ví dụ: pbAvt.Image = Properties.Resources.DefaultImage;
+                                Console.WriteLine("Error converting profile image: " + ex.Message);
                             }
                         }
                         else
                         {
-                            // Không tìm thấy người dùng có tên như vậy trong cơ sở dữ liệu
-                            MessageBox.Show("Không tìm thấy người dùng có tên như vậy trong cơ sở dữ liệu.");
+                            pbAvt.Image = null;
                         }
+                    }
+                    else
+                    {
+                        MessageBox.Show(responseObject.message.ToString());
                     }
                 }
             }
         }
+
+
     }
 }
+
+
+    
