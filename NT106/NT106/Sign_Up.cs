@@ -13,6 +13,8 @@ using System.Runtime.Remoting.Messaging;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 using System.Data.SqlClient;
+using Newtonsoft.Json;
+using System.Net.Sockets;
 
 namespace NT106
 {
@@ -66,12 +68,6 @@ namespace NT106
                 return;
             }
 
-            if (modify.Users("SELECT * FROM TaiKhoan WHERE Email = '" + email + "'").Count != 0)
-            {
-                MessageBox.Show("Email này đã được đăng kí, vui lòng sử dụng Email khác!");
-                return;
-            }
-
             if (string.IsNullOrEmpty(selectedImagePath))
             {
                 MessageBox.Show("Vui lòng chọn một tập tin hình ảnh trước khi đăng ký.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -83,37 +79,40 @@ namespace NT106
                 // Đọc dữ liệu hình ảnh thành mảng byte
                 byte[] imageBytes = System.IO.File.ReadAllBytes(selectedImagePath);
 
-                // Chuẩn bị câu truy vấn INSERT
-                string query = "INSERT INTO TaiKhoan (UserName, Password, Email, ProfileImage) VALUES (@UserName, @Password, @Email, @ProfileImage)";
-
-                // Kết nối đến cơ sở dữ liệu
-                using (SqlConnection connection = Connection.GetSqlConnection())
+                // Tạo đối tượng đăng ký
+                var registerRequest = new
                 {
-                    // Mở kết nối
-                    connection.Open();
+                    type = "register",
+                    username = userName,
+                    password = password,
+                    email = email,
+                    profileImage = Convert.ToBase64String(imageBytes)
+                };
+                string requestData = JsonConvert.SerializeObject(registerRequest);
+                byte[] data = Encoding.UTF8.GetBytes(requestData);
 
-                    // Chuẩn bị đối tượng SqlCommand
-                    using (SqlCommand command = new SqlCommand(query, connection))
+                // In ra requestData để kiểm tra
+                Console.WriteLine("Request data: " + requestData);
+
+                // Gửi yêu cầu đăng ký đến server
+                using (Socket client = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.IP))
+                {
+                    client.Connect("127.0.0.1", 8080);
+                    client.Send(data);
+
+                    byte[] buffer = new byte[1024];
+                    int receivedBytes = client.Receive(buffer);
+                    string response = Encoding.UTF8.GetString(buffer, 0, receivedBytes);
+                    dynamic responseObject = JsonConvert.DeserializeObject(response);
+
+                    if (responseObject.status == "success")
                     {
-                        // Thêm tham số cho câu truy vấn INSERT
-                        command.Parameters.AddWithValue("@UserName", userName);
-                        command.Parameters.AddWithValue("@Password", password);
-                        command.Parameters.AddWithValue("@Email", email);
-                        command.Parameters.AddWithValue("@ProfileImage", imageBytes);
-
-                        // Thực thi câu truy vấn INSERT
-                        int rowsAffected = command.ExecuteNonQuery();
-
-                        // Kiểm tra xem dữ liệu đã được thêm thành công hay không
-                        if (rowsAffected > 0)
-                        {
-                            MessageBox.Show("Đăng ký thành công!");
-                            Close();
-                        }
-                        else
-                        {
-                            MessageBox.Show("Đăng ký không thành công!");
-                        }
+                        MessageBox.Show(responseObject.message.ToString(), "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        Close();
+                    }
+                    else
+                    {
+                        MessageBox.Show(responseObject.message.ToString(), "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
             }
@@ -122,6 +121,10 @@ namespace NT106
                 MessageBox.Show("Lỗi: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+
+
+
 
 
         private string selectedImagePath;
@@ -149,9 +152,9 @@ namespace NT106
                 {
                     try
                     {
-                        // Thực hiện lưu hình ảnh vào CSDL bằng class Modify
+                        
                         Modify modify = new Modify();
-                        modify.UploadImage(textBox_Name.Text, selectedImagePath); // Giả sử txtUsername là TextBox chứa tên người dùng
+                        modify.UploadImage(textBox_Name.Text, selectedImagePath); 
                         MessageBox.Show("Hình ảnh đã được tải lên thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                     catch (Exception ex)
@@ -162,7 +165,7 @@ namespace NT106
             }
             else
             {
-                MessageBox.Show("Vui lòng chọn một tập tin hình ảnh trước khi lưu vào CSDL.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Vui lòng chọn một tập tin hình ảnh để làm Avatar!.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 

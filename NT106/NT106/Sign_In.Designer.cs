@@ -29,58 +29,18 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Sign_In));
-            this.textBox_UserName = new System.Windows.Forms.TextBox();
-            this.textBox_Password = new System.Windows.Forms.TextBox();
-            this.btn_SignIn = new System.Windows.Forms.Button();
             this.linkLabel_SignUp = new System.Windows.Forms.LinkLabel();
             this.linkLabel_ForgotPass = new System.Windows.Forms.LinkLabel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btn_SignIn = new NT106.UserControls.ButtonElipse();
+            this.textBox_UserName = new NT106.UserControls.TextBoxElipse();
+            this.textBox_Password = new NT106.UserControls.TextBoxElipse();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // textBox_UserName
-            // 
-            this.textBox_UserName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox_UserName.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold);
-            this.textBox_UserName.ForeColor = System.Drawing.Color.DarkGreen;
-            this.textBox_UserName.Location = new System.Drawing.Point(133, 239);
-            this.textBox_UserName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox_UserName.Multiline = true;
-            this.textBox_UserName.Name = "textBox_UserName";
-            this.textBox_UserName.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
-            this.textBox_UserName.Size = new System.Drawing.Size(254, 39);
-            this.textBox_UserName.TabIndex = 3;
-            // 
-            // textBox_Password
-            // 
-            this.textBox_Password.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox_Password.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold);
-            this.textBox_Password.ForeColor = System.Drawing.Color.DarkGreen;
-            this.textBox_Password.Location = new System.Drawing.Point(133, 309);
-            this.textBox_Password.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox_Password.Multiline = true;
-            this.textBox_Password.Name = "textBox_Password";
-            this.textBox_Password.PasswordChar = '*';
-            this.textBox_Password.Size = new System.Drawing.Size(254, 36);
-            this.textBox_Password.TabIndex = 4;
-            // 
-            // btn_SignIn
-            // 
-            this.btn_SignIn.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.btn_SignIn.Font = new System.Drawing.Font("Comic Sans MS", 11F, System.Drawing.FontStyle.Bold);
-            this.btn_SignIn.ForeColor = System.Drawing.Color.Honeydew;
-            this.btn_SignIn.Location = new System.Drawing.Point(182, 457);
-            this.btn_SignIn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btn_SignIn.Name = "btn_SignIn";
-            this.btn_SignIn.Size = new System.Drawing.Size(147, 52);
-            this.btn_SignIn.TabIndex = 8;
-            this.btn_SignIn.Text = "Sign In";
-            this.btn_SignIn.UseVisualStyleBackColor = false;
-            this.btn_SignIn.Click += new System.EventHandler(this.btn_SignIn_Click);
             // 
             // linkLabel_SignUp
             // 
@@ -115,7 +75,7 @@
             // 
             this.pictureBox3.Image = global::NT106.Properties.Resources.key;
             this.pictureBox3.Location = new System.Drawing.Point(63, 309);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(40, 37);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -126,7 +86,7 @@
             // 
             this.pictureBox2.Image = global::NT106.Properties.Resources.account1;
             this.pictureBox2.Location = new System.Drawing.Point(60, 239);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(43, 39);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -137,12 +97,56 @@
             // 
             this.pictureBox1.Image = global::NT106.Properties.Resources.login;
             this.pictureBox1.Location = new System.Drawing.Point(136, 31);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(228, 175);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            // 
+            // btn_SignIn
+            // 
+            this.btn_SignIn.Active1 = System.Drawing.Color.DarkGreen;
+            this.btn_SignIn.Active2 = System.Drawing.Color.Black;
+            this.btn_SignIn.BackColor = System.Drawing.Color.Transparent;
+            this.btn_SignIn.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.btn_SignIn.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold);
+            this.btn_SignIn.ForeColor = System.Drawing.Color.MintCream;
+            this.btn_SignIn.Inactive1 = System.Drawing.Color.MediumSeaGreen;
+            this.btn_SignIn.Inactive2 = System.Drawing.Color.MediumSeaGreen;
+            this.btn_SignIn.Location = new System.Drawing.Point(177, 453);
+            this.btn_SignIn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_SignIn.Name = "btn_SignIn";
+            this.btn_SignIn.Radius = 10;
+            this.btn_SignIn.Size = new System.Drawing.Size(147, 52);
+            this.btn_SignIn.Stroke = false;
+            this.btn_SignIn.StrokeColor = System.Drawing.Color.Gray;
+            this.btn_SignIn.TabIndex = 31;
+            this.btn_SignIn.Text = "Sign In";
+            this.btn_SignIn.Transparency = false;
+            this.btn_SignIn.Click += new System.EventHandler(this.btn_SignIn_Click);
+            // 
+            // textBox_UserName
+            // 
+            this.textBox_UserName.BackColor = System.Drawing.Color.Transparent;
+            this.textBox_UserName.Br = System.Drawing.Color.White;
+            this.textBox_UserName.Font = new System.Drawing.Font("Comic Sans MS", 11F);
+            this.textBox_UserName.ForeColor = System.Drawing.Color.DarkGreen;
+            this.textBox_UserName.Location = new System.Drawing.Point(133, 245);
+            this.textBox_UserName.Name = "textBox_UserName";
+            this.textBox_UserName.Size = new System.Drawing.Size(253, 33);
+            this.textBox_UserName.TabIndex = 33;
+            // 
+            // textBox_Password
+            // 
+            this.textBox_Password.BackColor = System.Drawing.Color.Transparent;
+            this.textBox_Password.Br = System.Drawing.Color.White;
+            this.textBox_Password.Font = new System.Drawing.Font("Comic Sans MS", 11F);
+            this.textBox_Password.ForeColor = System.Drawing.Color.DarkGreen;
+            this.textBox_Password.Location = new System.Drawing.Point(133, 309);
+            this.textBox_Password.Name = "textBox_Password";
+            this.textBox_Password.Size = new System.Drawing.Size(253, 33);
+            this.textBox_Password.TabIndex = 34;
             // 
             // Sign_In
             // 
@@ -150,16 +154,16 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MintCream;
             this.ClientSize = new System.Drawing.Size(493, 538);
-            this.Controls.Add(this.linkLabel_SignUp);
-            this.Controls.Add(this.linkLabel_ForgotPass);
-            this.Controls.Add(this.btn_SignIn);
             this.Controls.Add(this.textBox_Password);
             this.Controls.Add(this.textBox_UserName);
+            this.Controls.Add(this.btn_SignIn);
+            this.Controls.Add(this.linkLabel_SignUp);
+            this.Controls.Add(this.linkLabel_ForgotPass);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Sign_In";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sign In";
@@ -177,11 +181,11 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.TextBox textBox_UserName;
-        private System.Windows.Forms.TextBox textBox_Password;
-        private System.Windows.Forms.Button btn_SignIn;
         private System.Windows.Forms.LinkLabel linkLabel_SignUp;
         private System.Windows.Forms.LinkLabel linkLabel_ForgotPass;
+        private UserControls.ButtonElipse btn_SignIn;
+        private UserControls.TextBoxElipse textBox_UserName;
+        private UserControls.TextBoxElipse textBox_Password;
     }
 }
 

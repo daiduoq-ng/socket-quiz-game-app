@@ -1,0 +1,54 @@
+﻿{
+  "questions": [
+    {
+      "question": "Trận chiến nào đánh dấu sự kết thúc của chiến tranh Việt Nam?",
+      "choices": [ "Trận Điện Biên Phủ", "Trận Huế", "Trận Sài Gòn", "Trận Khe Sanh" ],
+      "answer": 2
+    },
+    {
+      "question": "Ai là người đầu tiên đặt chân lên mặt trăng?",
+      "choices": [ "Neil Armstrong", "Yuri Gagarin", "Buzz Aldrin", "Michael Collins" ],
+      "answer": 0
+    },
+    {
+      "question": "Cuộc cách mạng công nghiệp bắt đầu ở quốc gia nào?",
+      "choices": [ "Hoa Kỳ", "Đức", "Pháp", "Anh" ],
+      "answer": 3
+    },
+    {
+      "question": "Thành phố nào từng là kinh đô của Việt Nam trước khi Hà Nội trở thành thủ đô?",
+      "choices": [ "Huế", "Sài Gòn", "Đà Nẵng", "Hải Phòng" ],
+      "answer": 0
+    },
+    {
+      "question": "Ai là vị tổng thống đầu tiên của Hoa Kỳ?",
+      "choices": [ "George Washington", "Thomas Jefferson", "Abraham Lincoln", "John Adams" ],
+      "answer": 0
+    },
+    {
+      "question": "Cuộc chiến tranh thế giới thứ hai kết thúc vào năm nào?",
+      "choices": [ "1943", "1944", "1945", "1946" ],
+      "answer": 2
+    },
+    {
+      "question": "Ai là người sáng lập ra đế quốc Mông Cổ?",
+      "choices": [ "Thành Cát Tư Hãn", "Hốt Tất Liệt", "Timur", "Ogotai" ],
+      "answer": 0
+    },
+    {
+      "question": "Hiệp ước Versailles đã kết thúc chiến tranh nào?",
+      "choices": [ "Chiến tranh thế giới thứ nhất", "Chiến tranh thế giới thứ hai", "Chiến tranh Napoléon", "Chiến tranh Pháp-Phổ" ],
+      "answer": 0
+    },
+    {
+      "question": "Kỳ quan thế giới nào vẫn tồn tại đến ngày nay?",
+      "choices": [ "Vườn treo Babylon", "Đại kim tự tháp Giza", "Tượng thần Zeus", "Hải đăng Alexandria" ],
+      "answer": 1
+    },
+    {
+      "question": "Cuộc hành trình vượt biển để tìm ra châu Mỹ do ai lãnh đạo?",
+      "choices": [ "Marco Polo", "Ferdinand Magellan", "Christopher Columbus", "Vasco da Gama" ],
+      "answer": 2
+    }
+  ]
+}

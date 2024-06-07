@@ -34,7 +34,7 @@ namespace NT106.UserControls
             box.Font = Font;
 
             BackColor = Color.Transparent;
-            ForeColor = Color.DimGray;
+            ForeColor = Color.MediumSeaGreen;  // fix màu disable
             br = Color.White;
             box.BackColor = br;
             Text = null;
