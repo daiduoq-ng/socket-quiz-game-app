@@ -1,17 +1,24 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading;
 using System.Windows.Forms;
+//using WMPLib; //Thêm thư viện WindowMediaPlayer
 
 namespace NT106
 {
     public partial class HomePage : Form
     {
         private Form CurrentFormChild;
+        private string userId;
+        private string quizId;
         private string username;
         private string questionJson;
+
+       // WindowsMediaPlayer player = new WindowsMediaPlayer(); //Khai báo đối tượng player từ WindowMediaPlayer
+        private Form_Setting settingForm;
 
         public HomePage(string username)
         {
@@ -19,6 +26,10 @@ namespace NT106
             connect();
             CheckForIllegalCrossThreadCalls = false;
             this.username = username;
+
+           // player.URL = "bgm.mp3"; //lấy âm thanh 
+            settingForm = new Form_Setting(this, username); //liên kết với setting form
+           // player.controls.play(); //bật nhạc nền
         }
 
         public void OpenChildForm(Form ChildForm)
@@ -52,7 +63,7 @@ namespace NT106
         private void btnEvent_Click(object sender, EventArgs e)
         {
             
-            Form_Event formEvent = new Form_Event(this, questionJson);
+            Form_Event formEvent = new Form_Event(this,ref questionJson,username);
             OpenChildForm(formEvent);
         }
 
@@ -63,13 +74,13 @@ namespace NT106
 
         private void btnMyScore_Click(object sender, EventArgs e)
         {
-            Form_Score form_Score = new Form_Score();
+            Form_Score form_Score = new Form_Score(username);
             OpenChildForm(form_Score);
         }
 
         private void btnSetting_Click(object sender, EventArgs e)
         {
-            Form_Setting formSetting = new Form_Setting(this);
+            Form_Setting formSetting = new Form_Setting(this,username);
             OpenChildForm(formSetting);
         }
 
@@ -78,13 +89,16 @@ namespace NT106
 
             if (volume >= 0 && volume <= 100)
             {
-                //  player.settings.volume = volume; // Đặt âm lượng theo tùy chỉnh ở setting
+         //       player.settings.volume = volume; // Đặt âm lượng theo tùy chỉnh ở setting
             }
+
         }
 
         private void HomePage_Load(object sender, EventArgs e)
         {
             label1.Text = "Xin chào, " + username;
+          //  player.URL = "bgm.mp3";
+           // player.controls.play(); // Bật nhạc ở đây
         }
 
         IPEndPoint IP;
@@ -119,14 +133,40 @@ namespace NT106
             {
                 while (true)
                 {
-                    byte[] buffer = new byte[1024];
-                    int bytesRead = client.Receive(buffer);
-                    questionJson = Encoding.UTF8.GetString(buffer, 0, bytesRead); // Chuyển đổi dữ liệu từ byte array sang chuỗi
-                    MessageBox.Show("Đã nhận được câu hỏi từ server.");
-
-                  
-                    Form_Event formEvent = new Form_Event(this, questionJson);
                     
+                    byte[] buffer = new byte[102400];
+                    int bytesRead = client.Receive(buffer);
+                    if (bytesRead > 0)
+                    {
+                        
+                        questionJson = string.Empty;
+
+                        
+                        questionJson = Encoding.UTF8.GetString(buffer, 0, bytesRead);
+
+                       
+                        var jsonObject = JsonConvert.DeserializeObject<dynamic>(questionJson);
+
+                       
+                        if (jsonObject.status == "success")
+                        {
+                            
+                            this.Invoke(new Action(() =>
+                            {
+                                if (!this.IsDisposed)
+                                {
+                                    this.Close();
+                                }
+                            }));
+                        }
+                        else
+                        {
+                            
+                            MessageBox.Show("Cuộc thi đã bắt đầu. Hãy tham gia ngay!");
+
+                            
+                        }
+                    }
                 }
             }
             catch
@@ -134,11 +174,71 @@ namespace NT106
                 close();
             }
         }
-
-        private void button1_Click(object sender, EventArgs e)
+        public void HideAllButtons()
         {
-            Form_QuestionUser forma = new Form_QuestionUser(questionJson);
-            forma.Show();
+            btnAccount.Enabled = false;
+            btnMyScore.Enabled = false;
+            btnSetting.Enabled = false;
+            btnBXH.Enabled = false;
+            btnEvent.Enabled = false;
+
+        }
+
+        public void EnableAllButtons()
+        {
+            btnAccount.Enabled = true;
+            btnMyScore.Enabled = true;
+            btnSetting.Enabled = true;
+            btnBXH.Enabled = true;
+           btnEvent.Enabled = true;
+            questionJson = null;
+        }
+
+
+
+
+
+
+
+
+
+        private void HomePage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            // Kiểm tra nếu lý do đóng là do người dùng đóng hoặc ứng dụng đóng
+            if (e.CloseReason == CloseReason.UserClosing || e.CloseReason == CloseReason.ApplicationExitCall)
+            {
+                var logout = new
+                {
+                    type = "logout",
+                    username = username
+                };
+                string requestData = JsonConvert.SerializeObject(logout);
+                byte[] data = Encoding.UTF8.GetBytes(requestData);
+
+                try
+                {
+                    // Tạo một socket mới để gửi yêu cầu đăng xuất
+                    using (Socket logoutClient = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.IP))
+                    {
+                        logoutClient.Connect("127.0.0.1", 8080);
+                        logoutClient.Send(data);
+
+                        byte[] buffer = new byte[1024];
+                        int receivedBytes = logoutClient.Receive(buffer);
+                        string response = Encoding.UTF8.GetString(buffer, 0, receivedBytes);
+                        dynamic responseObject = JsonConvert.DeserializeObject(response);
+
+                        if (responseObject.status == "success")
+                        {
+                            MessageBox.Show(responseObject.message.ToString(), "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error during logout: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
         }
     }
 }

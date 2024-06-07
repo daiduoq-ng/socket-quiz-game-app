@@ -1,0 +1,55 @@
+﻿{
+  "questions": [
+    {
+      "question": "Thủ đô của Việt Nam là gì?",
+      "choices": [ "Hà Nội", "Hồ Chí Minh", "Đà Nẵng", "Huế" ],
+      "answer": 0
+    },
+    {
+      "question": "Núi lửa lớn nhất trên trái đất nằm ở đâu?",
+      "choices": [ "Nhật Bản", "Hawaii", "Indonesia", "Iceland" ],
+      "answer": 1
+    },
+    {
+      "question": "Con sông dài nhất thế giới là sông nào?",
+      "choices": [ "Sông Nile", "Sông Amazon", "Sông Danube", "Sông Mississippi" ],
+      "answer": 1
+    },
+    {
+      "question": "Quốc gia nào có diện tích lớn nhất trên thế giới?",
+      "choices": [ "Trung Quốc", "Canada", "Nga", "Hoa Kỳ" ],
+      "answer": 2
+    },
+    {
+      "question": "Đỉnh núi cao nhất thế giới là gì?",
+      "choices": [ "Đỉnh K2", "Đỉnh Lhotse", "Đỉnh Kangchenjunga", "Đỉnh Everest" ],
+      "answer": 3
+    },
+    {
+      "question": "Tên của quốc gia nhỏ nhất trên thế giới là gì?",
+      "choices": [ "Singapore", "Vatican", "Monaco", "San Marino" ],
+      "answer": 1
+    },
+    {
+      "question": "Thành phố nào được gọi là thành phố sương mù?",
+      "choices": [ "Paris", "London", "Tokyo", "New York" ],
+      "answer": 1
+    },
+    {
+      "question": "Quốc gia nào nằm trên cả châu Á và châu Âu?",
+      "choices": [ "Thổ Nhĩ Kỳ", "Ai Cập", "Nga", "Kazakhstan" ],
+      "answer": 2
+    },
+    {
+      "question": "Thác nước lớn nhất thế giới là gì?",
+      "choices": [ "Thác Niagara", "Thác Victoria", "Thác Iguazu", "Thác Angel" ],
+      "answer": 3
+    },
+    {
+      "question": "Tên của biển duy nhất không có đường bờ biển là gì?",
+      "choices": [ "Biển Đỏ", "Biển Đen", "Biển Đông", "Biển Sargasso" ],
+      "answer": 3
+    }
+
+  ]
+}

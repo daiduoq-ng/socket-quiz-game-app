@@ -29,65 +29,26 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Sign_In));
-            this.textBox_UserName = new System.Windows.Forms.TextBox();
-            this.textBox_Password = new System.Windows.Forms.TextBox();
-            this.btn_SignIn = new System.Windows.Forms.Button();
             this.linkLabel_SignUp = new System.Windows.Forms.LinkLabel();
             this.linkLabel_ForgotPass = new System.Windows.Forms.LinkLabel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btn_SignIn = new NT106.UserControls.ButtonElipse();
+            this.chbShowPass = new System.Windows.Forms.CheckBox();
+            this.txbUserName = new System.Windows.Forms.TextBox();
+            this.txbPassword = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // textBox_UserName
-            // 
-            this.textBox_UserName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox_UserName.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold);
-            this.textBox_UserName.ForeColor = System.Drawing.Color.DarkGreen;
-            this.textBox_UserName.Location = new System.Drawing.Point(133, 239);
-            this.textBox_UserName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox_UserName.Multiline = true;
-            this.textBox_UserName.Name = "textBox_UserName";
-            this.textBox_UserName.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
-            this.textBox_UserName.Size = new System.Drawing.Size(254, 39);
-            this.textBox_UserName.TabIndex = 3;
-            // 
-            // textBox_Password
-            // 
-            this.textBox_Password.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox_Password.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold);
-            this.textBox_Password.ForeColor = System.Drawing.Color.DarkGreen;
-            this.textBox_Password.Location = new System.Drawing.Point(133, 309);
-            this.textBox_Password.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox_Password.Multiline = true;
-            this.textBox_Password.Name = "textBox_Password";
-            this.textBox_Password.PasswordChar = '*';
-            this.textBox_Password.Size = new System.Drawing.Size(254, 36);
-            this.textBox_Password.TabIndex = 4;
-            // 
-            // btn_SignIn
-            // 
-            this.btn_SignIn.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.btn_SignIn.Font = new System.Drawing.Font("Comic Sans MS", 11F, System.Drawing.FontStyle.Bold);
-            this.btn_SignIn.ForeColor = System.Drawing.Color.Honeydew;
-            this.btn_SignIn.Location = new System.Drawing.Point(182, 457);
-            this.btn_SignIn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btn_SignIn.Name = "btn_SignIn";
-            this.btn_SignIn.Size = new System.Drawing.Size(147, 52);
-            this.btn_SignIn.TabIndex = 8;
-            this.btn_SignIn.Text = "Sign In";
-            this.btn_SignIn.UseVisualStyleBackColor = false;
-            this.btn_SignIn.Click += new System.EventHandler(this.btn_SignIn_Click);
             // 
             // linkLabel_SignUp
             // 
             this.linkLabel_SignUp.AutoSize = true;
             this.linkLabel_SignUp.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold);
             this.linkLabel_SignUp.LinkColor = System.Drawing.Color.MediumSeaGreen;
-            this.linkLabel_SignUp.Location = new System.Drawing.Point(322, 393);
+            this.linkLabel_SignUp.Location = new System.Drawing.Point(323, 393);
             this.linkLabel_SignUp.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkLabel_SignUp.Name = "linkLabel_SignUp";
             this.linkLabel_SignUp.Size = new System.Drawing.Size(76, 25);
@@ -102,14 +63,14 @@
             this.linkLabel_ForgotPass.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold);
             this.linkLabel_ForgotPass.ForeColor = System.Drawing.Color.MediumSeaGreen;
             this.linkLabel_ForgotPass.LinkColor = System.Drawing.Color.MediumSeaGreen;
-            this.linkLabel_ForgotPass.Location = new System.Drawing.Point(58, 393);
+            this.linkLabel_ForgotPass.Location = new System.Drawing.Point(59, 393);
             this.linkLabel_ForgotPass.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkLabel_ForgotPass.Name = "linkLabel_ForgotPass";
             this.linkLabel_ForgotPass.Size = new System.Drawing.Size(155, 25);
             this.linkLabel_ForgotPass.TabIndex = 9;
             this.linkLabel_ForgotPass.TabStop = true;
             this.linkLabel_ForgotPass.Text = "Forgot password?";
-            this.linkLabel_ForgotPass.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            this.linkLabel_ForgotPass.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel_ForgotPass_LinkClicked);
             // 
             // pictureBox3
             // 
@@ -144,17 +105,78 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // btn_SignIn
+            // 
+            this.btn_SignIn.Active1 = System.Drawing.Color.DarkGreen;
+            this.btn_SignIn.Active2 = System.Drawing.Color.Black;
+            this.btn_SignIn.BackColor = System.Drawing.Color.Transparent;
+            this.btn_SignIn.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.btn_SignIn.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold);
+            this.btn_SignIn.ForeColor = System.Drawing.Color.MintCream;
+            this.btn_SignIn.Inactive1 = System.Drawing.Color.MediumSeaGreen;
+            this.btn_SignIn.Inactive2 = System.Drawing.Color.MediumSeaGreen;
+            this.btn_SignIn.Location = new System.Drawing.Point(177, 453);
+            this.btn_SignIn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_SignIn.Name = "btn_SignIn";
+            this.btn_SignIn.Radius = 10;
+            this.btn_SignIn.Size = new System.Drawing.Size(147, 52);
+            this.btn_SignIn.Stroke = false;
+            this.btn_SignIn.StrokeColor = System.Drawing.Color.Gray;
+            this.btn_SignIn.TabIndex = 31;
+            this.btn_SignIn.Text = "Sign In";
+            this.btn_SignIn.Transparency = false;
+            this.btn_SignIn.Click += new System.EventHandler(this.btn_SignIn_Click);
+            // 
+            // chbShowPass
+            // 
+            this.chbShowPass.AutoSize = true;
+            this.chbShowPass.Checked = true;
+            this.chbShowPass.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chbShowPass.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chbShowPass.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.chbShowPass.Location = new System.Drawing.Point(245, 348);
+            this.chbShowPass.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.chbShowPass.Name = "chbShowPass";
+            this.chbShowPass.Size = new System.Drawing.Size(140, 25);
+            this.chbShowPass.TabIndex = 35;
+            this.chbShowPass.Text = "Show Password";
+            this.chbShowPass.UseVisualStyleBackColor = true;
+            this.chbShowPass.CheckedChanged += new System.EventHandler(this.chbShowPass_CheckedChanged);
+            // 
+            // txbUserName
+            // 
+            this.txbUserName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txbUserName.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbUserName.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.txbUserName.Location = new System.Drawing.Point(136, 245);
+            this.txbUserName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txbUserName.Name = "txbUserName";
+            this.txbUserName.Size = new System.Drawing.Size(250, 33);
+            this.txbUserName.TabIndex = 36;
+            // 
+            // txbPassword
+            // 
+            this.txbPassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txbPassword.Font = new System.Drawing.Font("Comic Sans MS", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbPassword.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.txbPassword.Location = new System.Drawing.Point(136, 309);
+            this.txbPassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txbPassword.Name = "txbPassword";
+            this.txbPassword.Size = new System.Drawing.Size(250, 33);
+            this.txbPassword.TabIndex = 37;
+            // 
             // Sign_In
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MintCream;
             this.ClientSize = new System.Drawing.Size(493, 538);
+            this.Controls.Add(this.txbPassword);
+            this.Controls.Add(this.txbUserName);
+            this.Controls.Add(this.chbShowPass);
+            this.Controls.Add(this.btn_SignIn);
             this.Controls.Add(this.linkLabel_SignUp);
             this.Controls.Add(this.linkLabel_ForgotPass);
-            this.Controls.Add(this.btn_SignIn);
-            this.Controls.Add(this.textBox_Password);
-            this.Controls.Add(this.textBox_UserName);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
@@ -177,11 +199,12 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.TextBox textBox_UserName;
-        private System.Windows.Forms.TextBox textBox_Password;
-        private System.Windows.Forms.Button btn_SignIn;
         private System.Windows.Forms.LinkLabel linkLabel_SignUp;
         private System.Windows.Forms.LinkLabel linkLabel_ForgotPass;
+        private UserControls.ButtonElipse btn_SignIn;
+        private System.Windows.Forms.CheckBox chbShowPass;
+        private System.Windows.Forms.TextBox txbUserName;
+        private System.Windows.Forms.TextBox txbPassword;
     }
 }
 

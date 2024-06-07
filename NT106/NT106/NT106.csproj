@@ -52,7 +52,7 @@
       <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System">
-      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll</HintPath>
     </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -265,6 +265,18 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\bg3.png" />
+    <None Include="Resources\bg1.png" />
+    <None Include="Resources\bg.png" />
+    <None Include="Resources\Picture61.png" />
+    <None Include="Resources\Picture5.png" />
+    <None Include="Resources\Picture4.png" />
+    <None Include="Resources\Picture3.png" />
+    <None Include="Resources\Picture2.png" />
+    <None Include="Resources\Picture1.png" />
+    <None Include="Resources\poster ideas.jpg" />
+    <None Include="questions_3.json" />
+    <None Include="questions_2.json" />
     <None Include="Resources\account2.png" />
     <None Include="Resources\verify.png" />
     <None Include="Resources\key.png" />
@@ -277,7 +289,7 @@
     <None Include="Resources\planner.png" />
     <None Include="Resources\account.png" />
     <None Include="Resources\Green White Illustrative Jungle Wild Animals Presentation.png" />
-    <None Include="questions.json" />
+    <None Include="questions_1.json" />
     <None Include="Resources\trophy %281%29.png" />
     <None Include="Resources\prize.png" />
     <None Include="Resources\star %281%29.png" />
@@ -309,6 +321,25 @@
     <None Include="Resources\console.png" />
     <None Include="Resources\OIP.jpg" />
     <None Include="Resources\OIP %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

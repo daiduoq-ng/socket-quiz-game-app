@@ -11,6 +11,7 @@ namespace NT106
     {
         public Modify()
         {
+
         }
         SqlCommand SqlCommand; //Dung de truy van 
         SqlDataReader dataReader; //Dung de doc du lieu trong bang 

@@ -28,37 +28,65 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnServer = new NT106.UserControls.ButtonElipse();
+            this.btnClient = new NT106.UserControls.ButtonElipse();
             this.SuspendLayout();
             // 
-            // button1
+            // btnServer
             // 
-            this.button1.Location = new System.Drawing.Point(169, 187);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Server";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnServer.Active1 = System.Drawing.Color.DarkGreen;
+            this.btnServer.Active2 = System.Drawing.Color.Black;
+            this.btnServer.BackColor = System.Drawing.Color.Transparent;
+            this.btnServer.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.btnServer.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold);
+            this.btnServer.ForeColor = System.Drawing.Color.MintCream;
+            this.btnServer.Inactive1 = System.Drawing.Color.MediumSeaGreen;
+            this.btnServer.Inactive2 = System.Drawing.Color.MediumSeaGreen;
+            this.btnServer.Location = new System.Drawing.Point(59, 62);
+            this.btnServer.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnServer.Name = "btnServer";
+            this.btnServer.Radius = 10;
+            this.btnServer.Size = new System.Drawing.Size(117, 44);
+            this.btnServer.Stroke = false;
+            this.btnServer.StrokeColor = System.Drawing.Color.Gray;
+            this.btnServer.TabIndex = 30;
+            this.btnServer.Text = "Server";
+            this.btnServer.Transparency = false;
+            this.btnServer.Click += new System.EventHandler(this.btnServer_Click);
             // 
-            // button2
+            // btnClient
             // 
-            this.button2.Location = new System.Drawing.Point(367, 187);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Client";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnClient.Active1 = System.Drawing.Color.DarkGreen;
+            this.btnClient.Active2 = System.Drawing.Color.Black;
+            this.btnClient.BackColor = System.Drawing.Color.Transparent;
+            this.btnClient.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.btnClient.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold);
+            this.btnClient.ForeColor = System.Drawing.Color.MintCream;
+            this.btnClient.Inactive1 = System.Drawing.Color.MediumSeaGreen;
+            this.btnClient.Inactive2 = System.Drawing.Color.MediumSeaGreen;
+            this.btnClient.Location = new System.Drawing.Point(242, 62);
+            this.btnClient.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnClient.Name = "btnClient";
+            this.btnClient.Radius = 10;
+            this.btnClient.Size = new System.Drawing.Size(117, 44);
+            this.btnClient.Stroke = false;
+            this.btnClient.StrokeColor = System.Drawing.Color.Gray;
+            this.btnClient.TabIndex = 31;
+            this.btnClient.Text = "Client";
+            this.btnClient.Transparency = false;
+            this.btnClient.Click += new System.EventHandler(this.btnClient_Click);
             // 
             // TestCS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.BackColor = System.Drawing.Color.MintCream;
+            this.BackgroundImage = global::NT106.Properties.Resources.Picture5;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(416, 176);
+            this.Controls.Add(this.btnClient);
+            this.Controls.Add(this.btnServer);
+            this.DoubleBuffered = true;
             this.Name = "TestCS";
             this.Text = "TestCS";
             this.ResumeLayout(false);
@@ -66,8 +94,7 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private UserControls.ButtonElipse btnServer;
+        private UserControls.ButtonElipse btnClient;
     }
 }

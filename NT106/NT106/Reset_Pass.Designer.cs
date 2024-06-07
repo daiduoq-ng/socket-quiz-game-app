@@ -29,27 +29,14 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Reset_Pass));
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.btn_Reset = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btn_ForgotPassword = new NT106.UserControls.ButtonElipse();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // textBox1
-            // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold);
-            this.textBox1.ForeColor = System.Drawing.Color.DarkGreen;
-            this.textBox1.Location = new System.Drawing.Point(195, 279);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
-            this.textBox1.Size = new System.Drawing.Size(243, 30);
-            this.textBox1.TabIndex = 12;
             // 
             // label1
             // 
@@ -75,29 +62,16 @@
             this.label2.TabIndex = 13;
             this.label2.Text = "Result";
             // 
-            // btn_Reset
-            // 
-            this.btn_Reset.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.btn_Reset.Font = new System.Drawing.Font("Comic Sans MS", 11F, System.Drawing.FontStyle.Bold);
-            this.btn_Reset.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_Reset.Location = new System.Drawing.Point(160, 401);
-            this.btn_Reset.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btn_Reset.Name = "btn_Reset";
-            this.btn_Reset.Size = new System.Drawing.Size(175, 52);
-            this.btn_Reset.TabIndex = 14;
-            this.btn_Reset.Text = "Reset Password";
-            this.btn_Reset.UseVisualStyleBackColor = false;
-            this.btn_Reset.Click += new System.EventHandler(this.button1_Click);
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(167, 352);
+            this.label3.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold);
+            this.label3.Location = new System.Drawing.Point(135, 344);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(0, 18);
+            this.label3.Size = new System.Drawing.Size(46, 25);
             this.label3.TabIndex = 15;
+            this.label3.Text = "Pass";
             // 
             // pictureBox1
             // 
@@ -110,20 +84,54 @@
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
+            // btn_ForgotPassword
+            // 
+            this.btn_ForgotPassword.Active1 = System.Drawing.Color.DarkGreen;
+            this.btn_ForgotPassword.Active2 = System.Drawing.Color.Black;
+            this.btn_ForgotPassword.BackColor = System.Drawing.Color.Transparent;
+            this.btn_ForgotPassword.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.btn_ForgotPassword.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold);
+            this.btn_ForgotPassword.ForeColor = System.Drawing.Color.MintCream;
+            this.btn_ForgotPassword.Inactive1 = System.Drawing.Color.MediumSeaGreen;
+            this.btn_ForgotPassword.Inactive2 = System.Drawing.Color.MediumSeaGreen;
+            this.btn_ForgotPassword.Location = new System.Drawing.Point(162, 402);
+            this.btn_ForgotPassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_ForgotPassword.Name = "btn_ForgotPassword";
+            this.btn_ForgotPassword.Radius = 10;
+            this.btn_ForgotPassword.Size = new System.Drawing.Size(154, 52);
+            this.btn_ForgotPassword.Stroke = false;
+            this.btn_ForgotPassword.StrokeColor = System.Drawing.Color.Gray;
+            this.btn_ForgotPassword.TabIndex = 32;
+            this.btn_ForgotPassword.Text = "Send ";
+            this.btn_ForgotPassword.Transparency = false;
+            this.btn_ForgotPassword.Click += new System.EventHandler(this.btn_ForgotPassword_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox1.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold);
+            this.textBox1.ForeColor = System.Drawing.Color.DarkGreen;
+            this.textBox1.Location = new System.Drawing.Point(198, 278);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(250, 31);
+            this.textBox1.TabIndex = 37;
+            // 
             // Reset_Pass
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MintCream;
             this.ClientSize = new System.Drawing.Size(481, 496);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.btn_Reset);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btn_ForgotPassword);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Reset_Pass";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Reset Password";
@@ -136,10 +144,10 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btn_Reset;
         private System.Windows.Forms.Label label3;
+        private UserControls.ButtonElipse btn_ForgotPassword;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
