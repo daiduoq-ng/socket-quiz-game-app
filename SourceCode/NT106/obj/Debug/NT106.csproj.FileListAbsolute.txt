@@ -1,0 +1,619 @@
+E:\New folder\NT106\NT106\bin\Debug\Database1.mdf
+E:\New folder\NT106\NT106\bin\Debug\Database1_log.ldf
+E:\New folder\NT106\NT106\bin\Debug\NT106.exe.config
+E:\New folder\NT106\NT106\bin\Debug\NT106.exe
+E:\New folder\NT106\NT106\bin\Debug\NT106.pdb
+E:\New folder\NT106\NT106\obj\Debug\NT106.csproj.AssemblyReference.cache
+E:\New folder\NT106\NT106\obj\Debug\NT106.Properties.Resources.resources
+E:\New folder\NT106\NT106\obj\Debug\NT106.csproj.GenerateResource.cache
+E:\New folder\NT106\NT106\obj\Debug\NT106.csproj.CoreCompileInputs.cache
+E:\New folder\NT106\NT106\obj\Debug\NT106.exe
+E:\New folder\NT106\NT106\obj\Debug\NT106.pdb
+E:\New folder\NT106\NT106\obj\Debug\NT106.Form_Game.resources
+E:\New folder\NT106\NT106\obj\Debug\NT106.Reset_Pass.resources
+E:\New folder\NT106\NT106\obj\Debug\NT106.Sign_In.resources
+E:\New folder\NT106\NT106\obj\Debug\NT106.Sign_Up.resources
+D:\NT106_DoAnCK\NT106\NT106\bin\Debug\Database1.mdf
+D:\NT106_DoAnCK\NT106\NT106\bin\Debug\Database1_log.ldf
+D:\NT106_DoAnCK\NT106\NT106\bin\Debug\NT106.exe.config
+D:\NT106_DoAnCK\NT106\NT106\bin\Debug\NT106.exe
+D:\NT106_DoAnCK\NT106\NT106\bin\Debug\NT106.pdb
+D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.csproj.AssemblyReference.cache
+D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.csproj.SuggestedBindingRedirects.cache
+D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.Form_Game.resources
+D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.Reset_Pass.resources
+D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.Sign_In.resources
+D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.Properties.Resources.resources
+D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.Sign_Up.resources
+D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.csproj.GenerateResource.cache
+D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.csproj.CoreCompileInputs.cache
+D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.exe
+D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.pdb
+D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.Form_Account.resources
+D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.Form_Event.resources
+D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.Form_BXH.resources
+D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.Form_Setting.resources
+D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.Form_Guides.resources
+D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.MC_HomePages.resources
+D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.HomePage.resources
+D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.Form_QuestionMC.resources
+D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.Form_QuestionUser.resources
+D:\NT106_DoAnCK\NT106\NT106\obj\Debug\NT106.Form_Infor.resources
+F:\NT106 Cuoi ki\NT106-Final\NT106\NT106\bin\Debug\Database1.mdf
+F:\NT106 Cuoi ki\NT106-Final\NT106\NT106\bin\Debug\Database1_log.ldf
+F:\NT106 Cuoi ki\NT106-Final\NT106\NT106\bin\Debug\NT106.exe.config
+F:\NT106 Cuoi ki\NT106-Final\NT106\NT106\bin\Debug\NT106.exe
+F:\NT106 Cuoi ki\NT106-Final\NT106\NT106\bin\Debug\NT106.pdb
+F:\NT106 Cuoi ki\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.AssemblyReference.cache
+F:\NT106 Cuoi ki\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Account.resources
+F:\NT106 Cuoi ki\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_BXH.resources
+F:\NT106 Cuoi ki\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Event.resources
+F:\NT106 Cuoi ki\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_QuestionMC.resources
+F:\NT106 Cuoi ki\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_QuestionUser.resources
+F:\NT106 Cuoi ki\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Game.resources
+F:\NT106 Cuoi ki\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Guides.resources
+F:\NT106 Cuoi ki\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Infor.resources
+F:\NT106 Cuoi ki\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Setting.resources
+F:\NT106 Cuoi ki\NT106-Final\NT106\NT106\obj\Debug\NT106.HomePage.resources
+F:\NT106 Cuoi ki\NT106-Final\NT106\NT106\obj\Debug\NT106.MC_HomePages.resources
+F:\NT106 Cuoi ki\NT106-Final\NT106\NT106\obj\Debug\NT106.Reset_Pass.resources
+F:\NT106 Cuoi ki\NT106-Final\NT106\NT106\obj\Debug\NT106.Sign_In.resources
+F:\NT106 Cuoi ki\NT106-Final\NT106\NT106\obj\Debug\NT106.Properties.Resources.resources
+F:\NT106 Cuoi ki\NT106-Final\NT106\NT106\obj\Debug\NT106.Sign_Up.resources
+F:\NT106 Cuoi ki\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.GenerateResource.cache
+F:\NT106 Cuoi ki\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.CoreCompileInputs.cache
+F:\NT106 Cuoi ki\NT106-Final\NT106\NT106\obj\Debug\NT106.exe
+F:\NT106 Cuoi ki\NT106-Final\NT106\NT106\obj\Debug\NT106.pdb
+D:\Nam_2_2\nt106\thuc_hanh\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\Database1.mdf
+D:\Nam_2_2\nt106\thuc_hanh\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\Database1_log.ldf
+D:\Nam_2_2\nt106\thuc_hanh\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\NT106.exe.config
+D:\Nam_2_2\nt106\thuc_hanh\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\NT106.exe
+D:\Nam_2_2\nt106\thuc_hanh\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\NT106.pdb
+D:\Nam_2_2\nt106\thuc_hanh\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.AssemblyReference.cache
+D:\Nam_2_2\nt106\thuc_hanh\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Account.resources
+D:\Nam_2_2\nt106\thuc_hanh\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_BXH.resources
+D:\Nam_2_2\nt106\thuc_hanh\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Event.resources
+D:\Nam_2_2\nt106\thuc_hanh\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_QuestionMC.resources
+D:\Nam_2_2\nt106\thuc_hanh\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_QuestionUser.resources
+D:\Nam_2_2\nt106\thuc_hanh\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Game.resources
+D:\Nam_2_2\nt106\thuc_hanh\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Guides.resources
+D:\Nam_2_2\nt106\thuc_hanh\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Infor.resources
+D:\Nam_2_2\nt106\thuc_hanh\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Setting.resources
+D:\Nam_2_2\nt106\thuc_hanh\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.HomePage.resources
+D:\Nam_2_2\nt106\thuc_hanh\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.MC_HomePages.resources
+D:\Nam_2_2\nt106\thuc_hanh\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Reset_Pass.resources
+D:\Nam_2_2\nt106\thuc_hanh\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Sign_In.resources
+D:\Nam_2_2\nt106\thuc_hanh\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Properties.Resources.resources
+D:\Nam_2_2\nt106\thuc_hanh\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Sign_Up.resources
+D:\Nam_2_2\nt106\thuc_hanh\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.GenerateResource.cache
+D:\Nam_2_2\nt106\thuc_hanh\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.CoreCompileInputs.cache
+D:\Nam_2_2\nt106\thuc_hanh\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.exe
+D:\Nam_2_2\nt106\thuc_hanh\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.pdb
+D:\Nam_2_2\nt106\thuc_hanh\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Server.resources
+D:\Nam_2_2\nt106\thuc_hanh\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.TestCS.resources
+D:\Nam_2_2\nt106\thuc_hanh\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\Newtonsoft.Json.dll
+D:\Nam_2_2\nt106\thuc_hanh\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\Newtonsoft.Json.xml
+D:\Nam_2_2\nt106\thuc_hanh\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.Up2Date
+C:\Users\ADMIN\Documents\Zalo Received Files\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\Database1.mdf
+C:\Users\ADMIN\Documents\Zalo Received Files\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\Database1_log.ldf
+C:\Users\ADMIN\Documents\Zalo Received Files\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\NT106.exe.config
+C:\Users\ADMIN\Documents\Zalo Received Files\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\NT106.exe
+C:\Users\ADMIN\Documents\Zalo Received Files\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\NT106.pdb
+C:\Users\ADMIN\Documents\Zalo Received Files\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ADMIN\Documents\Zalo Received Files\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Documents\Zalo Received Files\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Account.resources
+C:\Users\ADMIN\Documents\Zalo Received Files\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_BXH.resources
+C:\Users\ADMIN\Documents\Zalo Received Files\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Event.resources
+C:\Users\ADMIN\Documents\Zalo Received Files\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_QuestionUser.resources
+C:\Users\ADMIN\Documents\Zalo Received Files\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Guides.resources
+C:\Users\ADMIN\Documents\Zalo Received Files\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Infor.resources
+C:\Users\ADMIN\Documents\Zalo Received Files\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Setting.resources
+C:\Users\ADMIN\Documents\Zalo Received Files\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.HomePage.resources
+C:\Users\ADMIN\Documents\Zalo Received Files\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Reset_Pass.resources
+C:\Users\ADMIN\Documents\Zalo Received Files\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Server.resources
+C:\Users\ADMIN\Documents\Zalo Received Files\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Sign_In.resources
+C:\Users\ADMIN\Documents\Zalo Received Files\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Properties.Resources.resources
+C:\Users\ADMIN\Documents\Zalo Received Files\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Sign_Up.resources
+C:\Users\ADMIN\Documents\Zalo Received Files\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.TestCS.resources
+C:\Users\ADMIN\Documents\Zalo Received Files\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.GenerateResource.cache
+C:\Users\ADMIN\Documents\Zalo Received Files\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Documents\Zalo Received Files\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.Up2Date
+C:\Users\ADMIN\Documents\Zalo Received Files\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.exe
+C:\Users\ADMIN\Documents\Zalo Received Files\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.pdb
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106\NT106\bin\Debug\Database1.mdf
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106\NT106\bin\Debug\Database1_log.ldf
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106\NT106\bin\Debug\NT106.exe.config
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106\NT106\bin\Debug\NT106.exe
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106\NT106\bin\Debug\NT106.pdb
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106\NT106\bin\Debug\Newtonsoft.Json.dll
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106\NT106\bin\Debug\Newtonsoft.Json.xml
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.AssemblyReference.cache
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.SuggestedBindingRedirects.cache
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Account.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_BXH.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Event.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_QuestionUser.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Guides.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Infor.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Setting.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106\NT106\obj\Debug\NT106.HomePage.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106\NT106\obj\Debug\NT106.Reset_Pass.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106\NT106\obj\Debug\NT106.Server.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106\NT106\obj\Debug\NT106.Sign_In.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106\NT106\obj\Debug\NT106.Properties.Resources.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106\NT106\obj\Debug\NT106.Sign_Up.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106\NT106\obj\Debug\NT106.TestCS.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.GenerateResource.cache
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.CoreCompileInputs.cache
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.CopyComplete
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106\NT106\obj\Debug\NT106.exe
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106\NT106\obj\Debug\NT106.pdb
+D:\NT106_DoAnCK\NT106-Final\NT106\NT106\bin\Debug\Database1.mdf
+D:\NT106_DoAnCK\NT106-Final\NT106\NT106\bin\Debug\Database1_log.ldf
+D:\NT106_DoAnCK\NT106-Final\NT106\NT106\bin\Debug\NT106.exe.config
+D:\NT106_DoAnCK\NT106-Final\NT106\NT106\bin\Debug\NT106.exe
+D:\NT106_DoAnCK\NT106-Final\NT106\NT106\bin\Debug\NT106.pdb
+D:\NT106_DoAnCK\NT106-Final\NT106\NT106\bin\Debug\Newtonsoft.Json.dll
+D:\NT106_DoAnCK\NT106-Final\NT106\NT106\bin\Debug\Newtonsoft.Json.xml
+D:\NT106_DoAnCK\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.AssemblyReference.cache
+D:\NT106_DoAnCK\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.SuggestedBindingRedirects.cache
+D:\NT106_DoAnCK\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Account.resources
+D:\NT106_DoAnCK\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_BXH.resources
+D:\NT106_DoAnCK\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Event.resources
+D:\NT106_DoAnCK\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_QuestionUser.resources
+D:\NT106_DoAnCK\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Guides.resources
+D:\NT106_DoAnCK\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Infor.resources
+D:\NT106_DoAnCK\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Setting.resources
+D:\NT106_DoAnCK\NT106-Final\NT106\NT106\obj\Debug\NT106.HomePage.resources
+D:\NT106_DoAnCK\NT106-Final\NT106\NT106\obj\Debug\NT106.Reset_Pass.resources
+D:\NT106_DoAnCK\NT106-Final\NT106\NT106\obj\Debug\NT106.Server.resources
+D:\NT106_DoAnCK\NT106-Final\NT106\NT106\obj\Debug\NT106.Sign_In.resources
+D:\NT106_DoAnCK\NT106-Final\NT106\NT106\obj\Debug\NT106.Properties.Resources.resources
+D:\NT106_DoAnCK\NT106-Final\NT106\NT106\obj\Debug\NT106.Sign_Up.resources
+D:\NT106_DoAnCK\NT106-Final\NT106\NT106\obj\Debug\NT106.TestCS.resources
+D:\NT106_DoAnCK\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.GenerateResource.cache
+D:\NT106_DoAnCK\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.CoreCompileInputs.cache
+D:\NT106_DoAnCK\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.CopyComplete
+D:\NT106_DoAnCK\NT106-Final\NT106\NT106\obj\Debug\NT106.exe
+D:\NT106_DoAnCK\NT106-Final\NT106\NT106\obj\Debug\NT106.pdb
+D:\NT106_DoAnCK\NT106-Final\NT106\NT106\obj\Debug\NT106.ChinhSachRiengTu.resources
+D:\NT106_DoAnCK\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Score.resources
+F:\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\Database1.mdf
+F:\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\Database1_log.ldf
+F:\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\NT106.exe.config
+F:\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\NT106.exe
+F:\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\NT106.pdb
+F:\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\Newtonsoft.Json.dll
+F:\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\Newtonsoft.Json.xml
+F:\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.AssemblyReference.cache
+F:\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.ChinhSachRiengTu.resources
+F:\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Account.resources
+F:\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_BXH.resources
+F:\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Event.resources
+F:\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_QuestionUser.resources
+F:\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Guides.resources
+F:\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Infor.resources
+F:\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Score.resources
+F:\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Setting.resources
+F:\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.HomePage.resources
+F:\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Reset_Pass.resources
+F:\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Server.resources
+F:\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Sign_In.resources
+F:\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Properties.Resources.resources
+F:\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Sign_Up.resources
+F:\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.TestCS.resources
+F:\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.GenerateResource.cache
+F:\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.CoreCompileInputs.cache
+F:\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.Up2Date
+F:\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.exe
+F:\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.pdb
+F:\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.AssemblyReference.cache
+F:\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.ChinhSachRiengTu.resources
+F:\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Account.resources
+F:\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_BXH.resources
+F:\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Event.resources
+F:\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_QuestionUser.resources
+F:\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Guides.resources
+F:\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Infor.resources
+F:\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Score.resources
+F:\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Setting.resources
+F:\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.HomePage.resources
+F:\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Reset_Pass.resources
+F:\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Server.resources
+F:\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Sign_In.resources
+F:\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Properties.Resources.resources
+F:\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Sign_Up.resources
+F:\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.TestCS.resources
+F:\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.GenerateResource.cache
+F:\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.CoreCompileInputs.cache
+F:\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.exe
+F:\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.pdb
+F:\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\Database1.mdf
+F:\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\Database1_log.ldf
+F:\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\NT106.exe.config
+F:\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\NT106.exe
+F:\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\NT106.pdb
+F:\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\Newtonsoft.Json.dll
+F:\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\Newtonsoft.Json.xml
+F:\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.Up2Date
+D:\NT106_DoAnCK\NT106-Final-main\NT106\NT106\bin\Debug\Database1.mdf
+D:\NT106_DoAnCK\NT106-Final-main\NT106\NT106\bin\Debug\Database1_log.ldf
+D:\NT106_DoAnCK\NT106-Final-main\NT106\NT106\bin\Debug\NT106.exe.config
+D:\NT106_DoAnCK\NT106-Final-main\NT106\NT106\bin\Debug\NT106.exe
+D:\NT106_DoAnCK\NT106-Final-main\NT106\NT106\bin\Debug\NT106.pdb
+D:\NT106_DoAnCK\NT106-Final-main\NT106\NT106\bin\Debug\Newtonsoft.Json.dll
+D:\NT106_DoAnCK\NT106-Final-main\NT106\NT106\bin\Debug\Newtonsoft.Json.xml
+D:\NT106_DoAnCK\NT106-Final-main\NT106\NT106\obj\Debug\NT106.csproj.AssemblyReference.cache
+D:\NT106_DoAnCK\NT106-Final-main\NT106\NT106\obj\Debug\NT106.csproj.SuggestedBindingRedirects.cache
+D:\NT106_DoAnCK\NT106-Final-main\NT106\NT106\obj\Debug\NT106.ChinhSachRiengTu.resources
+D:\NT106_DoAnCK\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_Account.resources
+D:\NT106_DoAnCK\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_BXH.resources
+D:\NT106_DoAnCK\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_Event.resources
+D:\NT106_DoAnCK\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_QuestionUser.resources
+D:\NT106_DoAnCK\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_Guides.resources
+D:\NT106_DoAnCK\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_Infor.resources
+D:\NT106_DoAnCK\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_Score.resources
+D:\NT106_DoAnCK\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_Setting.resources
+D:\NT106_DoAnCK\NT106-Final-main\NT106\NT106\obj\Debug\NT106.HomePage.resources
+D:\NT106_DoAnCK\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Reset_Pass.resources
+D:\NT106_DoAnCK\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Server.resources
+D:\NT106_DoAnCK\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Sign_In.resources
+D:\NT106_DoAnCK\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Properties.Resources.resources
+D:\NT106_DoAnCK\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Sign_Up.resources
+D:\NT106_DoAnCK\NT106-Final-main\NT106\NT106\obj\Debug\NT106.TestCS.resources
+D:\NT106_DoAnCK\NT106-Final-main\NT106\NT106\obj\Debug\NT106.csproj.GenerateResource.cache
+D:\NT106_DoAnCK\NT106-Final-main\NT106\NT106\obj\Debug\NT106.csproj.CoreCompileInputs.cache
+D:\NT106_DoAnCK\NT106-Final-main\NT106\NT106\obj\Debug\NT106.csproj.CopyComplete
+D:\NT106_DoAnCK\NT106-Final-main\NT106\NT106\obj\Debug\NT106.exe
+D:\NT106_DoAnCK\NT106-Final-main\NT106\NT106\obj\Debug\NT106.pdb
+C:\Users\vukie\Máy tính\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\bin\Debug\Database1.mdf
+C:\Users\vukie\Máy tính\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\bin\Debug\Database1_log.ldf
+C:\Users\vukie\Máy tính\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\bin\Debug\NT106.exe.config
+C:\Users\vukie\Máy tính\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\bin\Debug\NT106.exe
+C:\Users\vukie\Máy tính\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\bin\Debug\NT106.pdb
+C:\Users\vukie\Máy tính\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\bin\Debug\Newtonsoft.Json.dll
+C:\Users\vukie\Máy tính\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\bin\Debug\Newtonsoft.Json.xml
+C:\Users\vukie\Máy tính\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.csproj.AssemblyReference.cache
+C:\Users\vukie\Máy tính\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.ChinhSachRiengTu.resources
+C:\Users\vukie\Máy tính\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_Account.resources
+C:\Users\vukie\Máy tính\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_BXH.resources
+C:\Users\vukie\Máy tính\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_Event.resources
+C:\Users\vukie\Máy tính\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_QuestionUser.resources
+C:\Users\vukie\Máy tính\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_Guides.resources
+C:\Users\vukie\Máy tính\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_Infor.resources
+C:\Users\vukie\Máy tính\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_Score.resources
+C:\Users\vukie\Máy tính\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_Setting.resources
+C:\Users\vukie\Máy tính\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.HomePage.resources
+C:\Users\vukie\Máy tính\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Reset_Pass.resources
+C:\Users\vukie\Máy tính\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Server.resources
+C:\Users\vukie\Máy tính\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Sign_In.resources
+C:\Users\vukie\Máy tính\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Properties.Resources.resources
+C:\Users\vukie\Máy tính\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Sign_Up.resources
+C:\Users\vukie\Máy tính\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.TestCS.resources
+C:\Users\vukie\Máy tính\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.csproj.GenerateResource.cache
+C:\Users\vukie\Máy tính\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.csproj.CoreCompileInputs.cache
+C:\Users\vukie\Máy tính\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.csproj.Up2Date
+C:\Users\vukie\Máy tính\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.exe
+C:\Users\vukie\Máy tính\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.pdb
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\bin\Debug\Database1.mdf
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\bin\Debug\Database1_log.ldf
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\bin\Debug\NT106.exe.config
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\bin\Debug\NT106.exe
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\bin\Debug\NT106.pdb
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\bin\Debug\Newtonsoft.Json.dll
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\bin\Debug\Newtonsoft.Json.xml
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.csproj.AssemblyReference.cache
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.csproj.SuggestedBindingRedirects.cache
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.ChinhSachRiengTu.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_Account.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_BXH.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_Event.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_QuestionUser.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_Guides.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_Infor.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_Score.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_Setting.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.HomePage.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Reset_Pass.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Server.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Sign_In.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Properties.Resources.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Sign_Up.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.TestCS.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.csproj.GenerateResource.cache
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.csproj.CoreCompileInputs.cache
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.csproj.CopyComplete
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.exe
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.pdb
+C:\Users\vukie\Máy tính\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\bin\Debug\Database1.mdf
+C:\Users\vukie\Máy tính\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\bin\Debug\Database1_log.ldf
+C:\Users\vukie\Máy tính\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\bin\Debug\NT106.exe.config
+C:\Users\vukie\Máy tính\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\bin\Debug\NT106.exe
+C:\Users\vukie\Máy tính\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\bin\Debug\NT106.pdb
+C:\Users\vukie\Máy tính\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\bin\Debug\Newtonsoft.Json.dll
+C:\Users\vukie\Máy tính\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\bin\Debug\Newtonsoft.Json.xml
+C:\Users\vukie\Máy tính\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.csproj.AssemblyReference.cache
+C:\Users\vukie\Máy tính\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.ChinhSachRiengTu.resources
+C:\Users\vukie\Máy tính\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_Account.resources
+C:\Users\vukie\Máy tính\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_BXH.resources
+C:\Users\vukie\Máy tính\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_Event.resources
+C:\Users\vukie\Máy tính\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_QuestionUser.resources
+C:\Users\vukie\Máy tính\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_Guides.resources
+C:\Users\vukie\Máy tính\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_Infor.resources
+C:\Users\vukie\Máy tính\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_Score.resources
+C:\Users\vukie\Máy tính\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_Setting.resources
+C:\Users\vukie\Máy tính\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.HomePage.resources
+C:\Users\vukie\Máy tính\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Reset_Pass.resources
+C:\Users\vukie\Máy tính\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Server.resources
+C:\Users\vukie\Máy tính\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Sign_In.resources
+C:\Users\vukie\Máy tính\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Properties.Resources.resources
+C:\Users\vukie\Máy tính\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Sign_Up.resources
+C:\Users\vukie\Máy tính\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.TestCS.resources
+C:\Users\vukie\Máy tính\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.csproj.GenerateResource.cache
+C:\Users\vukie\Máy tính\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.csproj.CoreCompileInputs.cache
+C:\Users\vukie\Máy tính\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.csproj.Up2Date
+C:\Users\vukie\Máy tính\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.exe
+C:\Users\vukie\Máy tính\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.pdb
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\bin\Debug\Database1.mdf
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\bin\Debug\Database1_log.ldf
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\bin\Debug\NT106.exe.config
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\bin\Debug\NT106.exe
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\bin\Debug\NT106.pdb
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\bin\Debug\Newtonsoft.Json.dll
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\bin\Debug\Newtonsoft.Json.xml
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.csproj.AssemblyReference.cache
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.csproj.SuggestedBindingRedirects.cache
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.ChinhSachRiengTu.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_Account.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_BXH.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_Event.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_QuestionUser.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_Guides.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_Infor.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_Score.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Form_Setting.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.HomePage.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Reset_Pass.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Server.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Sign_In.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Properties.Resources.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.Sign_Up.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.TestCS.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.csproj.GenerateResource.cache
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.csproj.CoreCompileInputs.cache
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.csproj.CopyComplete
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.exe
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final-main (1) (1)\NT106-Final-main\NT106\NT106\obj\Debug\NT106.pdb
+F:\NT106-Final-xm_1\NT106-Final-xm_1\NT106\NT106\bin\Debug\Database1.mdf
+F:\NT106-Final-xm_1\NT106-Final-xm_1\NT106\NT106\bin\Debug\Database1_log.ldf
+F:\NT106-Final-xm_1\NT106-Final-xm_1\NT106\NT106\bin\Debug\NT106.exe.config
+F:\NT106-Final-xm_1\NT106-Final-xm_1\NT106\NT106\bin\Debug\NT106.exe
+F:\NT106-Final-xm_1\NT106-Final-xm_1\NT106\NT106\bin\Debug\NT106.pdb
+F:\NT106-Final-xm_1\NT106-Final-xm_1\NT106\NT106\bin\Debug\Newtonsoft.Json.dll
+F:\NT106-Final-xm_1\NT106-Final-xm_1\NT106\NT106\bin\Debug\Newtonsoft.Json.xml
+F:\NT106-Final-xm_1\NT106-Final-xm_1\NT106\NT106\obj\Debug\NT106.csproj.AssemblyReference.cache
+F:\NT106-Final-xm_1\NT106-Final-xm_1\NT106\NT106\obj\Debug\NT106.ChinhSachRiengTu.resources
+F:\NT106-Final-xm_1\NT106-Final-xm_1\NT106\NT106\obj\Debug\NT106.Form_Account.resources
+F:\NT106-Final-xm_1\NT106-Final-xm_1\NT106\NT106\obj\Debug\NT106.Form_BXH.resources
+F:\NT106-Final-xm_1\NT106-Final-xm_1\NT106\NT106\obj\Debug\NT106.Form_Event.resources
+F:\NT106-Final-xm_1\NT106-Final-xm_1\NT106\NT106\obj\Debug\NT106.Form_QuestionUser.resources
+F:\NT106-Final-xm_1\NT106-Final-xm_1\NT106\NT106\obj\Debug\NT106.Form_Guides.resources
+F:\NT106-Final-xm_1\NT106-Final-xm_1\NT106\NT106\obj\Debug\NT106.Form_Infor.resources
+F:\NT106-Final-xm_1\NT106-Final-xm_1\NT106\NT106\obj\Debug\NT106.Form_Score.resources
+F:\NT106-Final-xm_1\NT106-Final-xm_1\NT106\NT106\obj\Debug\NT106.Form_Setting.resources
+F:\NT106-Final-xm_1\NT106-Final-xm_1\NT106\NT106\obj\Debug\NT106.HomePage.resources
+F:\NT106-Final-xm_1\NT106-Final-xm_1\NT106\NT106\obj\Debug\NT106.Reset_Pass.resources
+F:\NT106-Final-xm_1\NT106-Final-xm_1\NT106\NT106\obj\Debug\NT106.Server.resources
+F:\NT106-Final-xm_1\NT106-Final-xm_1\NT106\NT106\obj\Debug\NT106.Sign_In.resources
+F:\NT106-Final-xm_1\NT106-Final-xm_1\NT106\NT106\obj\Debug\NT106.Properties.Resources.resources
+F:\NT106-Final-xm_1\NT106-Final-xm_1\NT106\NT106\obj\Debug\NT106.Sign_Up.resources
+F:\NT106-Final-xm_1\NT106-Final-xm_1\NT106\NT106\obj\Debug\NT106.TestCS.resources
+F:\NT106-Final-xm_1\NT106-Final-xm_1\NT106\NT106\obj\Debug\NT106.csproj.GenerateResource.cache
+F:\NT106-Final-xm_1\NT106-Final-xm_1\NT106\NT106\obj\Debug\NT106.csproj.CoreCompileInputs.cache
+F:\NT106-Final-xm_1\NT106-Final-xm_1\NT106\NT106\obj\Debug\NT106.csproj.Up2Date
+F:\NT106-Final-xm_1\NT106-Final-xm_1\NT106\NT106\obj\Debug\NT106.exe
+F:\NT106-Final-xm_1\NT106-Final-xm_1\NT106\NT106\obj\Debug\NT106.pdb
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\Database1.mdf
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\Database1_log.ldf
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\NT106.exe.config
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\NT106.exe
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\NT106.pdb
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\Newtonsoft.Json.dll
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\Newtonsoft.Json.xml
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.AssemblyReference.cache
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.SuggestedBindingRedirects.cache
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.ChinhSachRiengTu.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Account.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_BXH.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Event.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_QuestionUser.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Guides.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Infor.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Score.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Setting.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.HomePage.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Reset_Pass.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Server.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Sign_In.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Properties.Resources.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Sign_Up.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.TestCS.resources
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.GenerateResource.cache
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.CoreCompileInputs.cache
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.CopyComplete
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.exe
+C:\Users\SUCCESS\Desktop\NT106\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.pdb
+F:\Test\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\Database1.mdf
+F:\Test\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\Database1_log.ldf
+F:\Test\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\NT106.exe.config
+F:\Test\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\NT106.exe
+F:\Test\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\NT106.pdb
+F:\Test\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\Newtonsoft.Json.dll
+F:\Test\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\Newtonsoft.Json.xml
+F:\Test\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.AssemblyReference.cache
+F:\Test\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.SuggestedBindingRedirects.cache
+F:\Test\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.ChinhSachRiengTu.resources
+F:\Test\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Account.resources
+F:\Test\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_BXH.resources
+F:\Test\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Event.resources
+F:\Test\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_QuestionUser.resources
+F:\Test\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Guides.resources
+F:\Test\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Infor.resources
+F:\Test\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Score.resources
+F:\Test\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Setting.resources
+F:\Test\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.HomePage.resources
+F:\Test\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Reset_Pass.resources
+F:\Test\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Server.resources
+F:\Test\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Sign_In.resources
+F:\Test\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Properties.Resources.resources
+F:\Test\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Sign_Up.resources
+F:\Test\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.TestCS.resources
+F:\Test\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.GenerateResource.cache
+F:\Test\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.CoreCompileInputs.cache
+F:\Test\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.CopyComplete
+F:\Test\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.exe
+F:\Test\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.pdb
+F:\Test\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\Interop.WMPLib.dll
+F:\Test\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\AxInterop.WMPLib.dll
+F:\Test\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\Interop.WMPLib.dll
+F:\Test\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\AxInterop.WMPLib.dll
+F:\Test\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.ResolveComReference.cache
+F:\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\Interop.WMPLib.dll
+F:\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\AxInterop.WMPLib.dll
+F:\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\Interop.WMPLib.dll
+F:\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\AxInterop.WMPLib.dll
+F:\NT106-Final\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.ResolveComReference.cache
+D:\NT106_DoAnCK\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.AssemblyReference.cache
+D:\NT106_DoAnCK\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.SuggestedBindingRedirects.cache
+D:\NT106_DoAnCK\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.ResolveComReference.cache
+D:\NT106_DoAnCK\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.ChinhSachRiengTu.resources
+D:\NT106_DoAnCK\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Account.resources
+D:\NT106_DoAnCK\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_BXH.resources
+D:\NT106_DoAnCK\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Event.resources
+D:\NT106_DoAnCK\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_QuestionUser.resources
+D:\NT106_DoAnCK\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Guides.resources
+D:\NT106_DoAnCK\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Infor.resources
+D:\NT106_DoAnCK\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Score.resources
+D:\NT106_DoAnCK\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Setting.resources
+D:\NT106_DoAnCK\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.HomePage.resources
+D:\NT106_DoAnCK\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Reset_Pass.resources
+D:\NT106_DoAnCK\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Server.resources
+D:\NT106_DoAnCK\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Sign_In.resources
+D:\NT106_DoAnCK\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Properties.Resources.resources
+D:\NT106_DoAnCK\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Sign_Up.resources
+D:\NT106_DoAnCK\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.TestCS.resources
+D:\NT106_DoAnCK\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.GenerateResource.cache
+D:\NT106_DoAnCK\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.CoreCompileInputs.cache
+D:\NT106_DoAnCK\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.exe
+D:\NT106_DoAnCK\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.pdb
+D:\NT106_DoAnCK\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\Database1.mdf
+D:\NT106_DoAnCK\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\Database1_log.ldf
+D:\NT106_DoAnCK\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\NT106.exe.config
+D:\NT106_DoAnCK\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\NT106.exe
+D:\NT106_DoAnCK\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\NT106.pdb
+D:\NT106_DoAnCK\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\Newtonsoft.Json.dll
+D:\NT106_DoAnCK\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\Newtonsoft.Json.xml
+D:\NT106_DoAnCK\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.CopyComplete
+F:\NT106-Final-xm_3\NT106-Final-xm_3\NT106\NT106\obj\Debug\NT106.csproj.AssemblyReference.cache
+F:\NT106-Final-xm_3\NT106-Final-xm_3\NT106\NT106\obj\Debug\Interop.WMPLib.dll
+F:\NT106-Final-xm_3\NT106-Final-xm_3\NT106\NT106\obj\Debug\AxInterop.WMPLib.dll
+F:\NT106-Final-xm_3\NT106-Final-xm_3\NT106\NT106\obj\Debug\NT106.csproj.ResolveComReference.cache
+F:\NT106-Final-xm_3\NT106-Final-xm_3\NT106\NT106\obj\Debug\NT106.exe
+F:\NT106-Final-xm_3\NT106-Final-xm_3\NT106\NT106\obj\Debug\NT106.pdb
+F:\NT106-Final-xm_3\NT106-Final-xm_3\NT106\NT106\bin\Debug\Database1.mdf
+F:\NT106-Final-xm_3\NT106-Final-xm_3\NT106\NT106\bin\Debug\Database1_log.ldf
+F:\NT106-Final-xm_3\NT106-Final-xm_3\NT106\NT106\bin\Debug\NT106.exe.config
+F:\NT106-Final-xm_3\NT106-Final-xm_3\NT106\NT106\bin\Debug\NT106.exe
+F:\NT106-Final-xm_3\NT106-Final-xm_3\NT106\NT106\bin\Debug\NT106.pdb
+F:\NT106-Final-xm_3\NT106-Final-xm_3\NT106\NT106\bin\Debug\Newtonsoft.Json.dll
+F:\NT106-Final-xm_3\NT106-Final-xm_3\NT106\NT106\bin\Debug\Newtonsoft.Json.xml
+F:\NT106-Final-xm_3\NT106-Final-xm_3\NT106\NT106\bin\Debug\Interop.WMPLib.dll
+F:\NT106-Final-xm_3\NT106-Final-xm_3\NT106\NT106\bin\Debug\AxInterop.WMPLib.dll
+F:\NT106-Final-xm_3\NT106-Final-xm_3\NT106\NT106\obj\Debug\NT106.ChinhSachRiengTu.resources
+F:\NT106-Final-xm_3\NT106-Final-xm_3\NT106\NT106\obj\Debug\NT106.Form_Account.resources
+F:\NT106-Final-xm_3\NT106-Final-xm_3\NT106\NT106\obj\Debug\NT106.Form_BXH.resources
+F:\NT106-Final-xm_3\NT106-Final-xm_3\NT106\NT106\obj\Debug\NT106.Form_Event.resources
+F:\NT106-Final-xm_3\NT106-Final-xm_3\NT106\NT106\obj\Debug\NT106.Form_QuestionUser.resources
+F:\NT106-Final-xm_3\NT106-Final-xm_3\NT106\NT106\obj\Debug\NT106.Form_Guides.resources
+F:\NT106-Final-xm_3\NT106-Final-xm_3\NT106\NT106\obj\Debug\NT106.Form_Infor.resources
+F:\NT106-Final-xm_3\NT106-Final-xm_3\NT106\NT106\obj\Debug\NT106.Form_Score.resources
+F:\NT106-Final-xm_3\NT106-Final-xm_3\NT106\NT106\obj\Debug\NT106.Form_Setting.resources
+F:\NT106-Final-xm_3\NT106-Final-xm_3\NT106\NT106\obj\Debug\NT106.HomePage.resources
+F:\NT106-Final-xm_3\NT106-Final-xm_3\NT106\NT106\obj\Debug\NT106.Reset_Pass.resources
+F:\NT106-Final-xm_3\NT106-Final-xm_3\NT106\NT106\obj\Debug\NT106.Server.resources
+F:\NT106-Final-xm_3\NT106-Final-xm_3\NT106\NT106\obj\Debug\NT106.Sign_In.resources
+F:\NT106-Final-xm_3\NT106-Final-xm_3\NT106\NT106\obj\Debug\NT106.Properties.Resources.resources
+F:\NT106-Final-xm_3\NT106-Final-xm_3\NT106\NT106\obj\Debug\NT106.Sign_Up.resources
+F:\NT106-Final-xm_3\NT106-Final-xm_3\NT106\NT106\obj\Debug\NT106.TestCS.resources
+F:\NT106-Final-xm_3\NT106-Final-xm_3\NT106\NT106\obj\Debug\NT106.csproj.GenerateResource.cache
+F:\NT106-Final-xm_3\NT106-Final-xm_3\NT106\NT106\obj\Debug\NT106.csproj.CoreCompileInputs.cache
+F:\NT106-Final-xm_3\NT106-Final-xm_3\NT106\NT106\obj\Debug\NT106.csproj.Up2Date
+F:\NT106-Final-xm_3\NT106-Final\NT106\NT106\bin\Debug\Database1.mdf
+F:\NT106-Final-xm_3\NT106-Final\NT106\NT106\bin\Debug\Database1_log.ldf
+F:\NT106-Final-xm_3\NT106-Final\NT106\NT106\bin\Debug\NT106.exe.config
+F:\NT106-Final-xm_3\NT106-Final\NT106\NT106\bin\Debug\NT106.exe
+F:\NT106-Final-xm_3\NT106-Final\NT106\NT106\bin\Debug\NT106.pdb
+F:\NT106-Final-xm_3\NT106-Final\NT106\NT106\bin\Debug\Newtonsoft.Json.dll
+F:\NT106-Final-xm_3\NT106-Final\NT106\NT106\bin\Debug\Newtonsoft.Json.xml
+F:\NT106-Final-xm_3\NT106-Final\NT106\NT106\bin\Debug\Interop.WMPLib.dll
+F:\NT106-Final-xm_3\NT106-Final\NT106\NT106\bin\Debug\AxInterop.WMPLib.dll
+F:\NT106-Final-xm_3\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.AssemblyReference.cache
+F:\NT106-Final-xm_3\NT106-Final\NT106\NT106\obj\Debug\Interop.WMPLib.dll
+F:\NT106-Final-xm_3\NT106-Final\NT106\NT106\obj\Debug\AxInterop.WMPLib.dll
+F:\NT106-Final-xm_3\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.ResolveComReference.cache
+F:\NT106-Final-xm_3\NT106-Final\NT106\NT106\obj\Debug\NT106.ChinhSachRiengTu.resources
+F:\NT106-Final-xm_3\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Account.resources
+F:\NT106-Final-xm_3\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_BXH.resources
+F:\NT106-Final-xm_3\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Event.resources
+F:\NT106-Final-xm_3\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_QuestionUser.resources
+F:\NT106-Final-xm_3\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Guides.resources
+F:\NT106-Final-xm_3\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Infor.resources
+F:\NT106-Final-xm_3\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Score.resources
+F:\NT106-Final-xm_3\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Setting.resources
+F:\NT106-Final-xm_3\NT106-Final\NT106\NT106\obj\Debug\NT106.HomePage.resources
+F:\NT106-Final-xm_3\NT106-Final\NT106\NT106\obj\Debug\NT106.Reset_Pass.resources
+F:\NT106-Final-xm_3\NT106-Final\NT106\NT106\obj\Debug\NT106.Server.resources
+F:\NT106-Final-xm_3\NT106-Final\NT106\NT106\obj\Debug\NT106.Sign_In.resources
+F:\NT106-Final-xm_3\NT106-Final\NT106\NT106\obj\Debug\NT106.Properties.Resources.resources
+F:\NT106-Final-xm_3\NT106-Final\NT106\NT106\obj\Debug\NT106.Sign_Up.resources
+F:\NT106-Final-xm_3\NT106-Final\NT106\NT106\obj\Debug\NT106.TestCS.resources
+F:\NT106-Final-xm_3\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.GenerateResource.cache
+F:\NT106-Final-xm_3\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.CoreCompileInputs.cache
+F:\NT106-Final-xm_3\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.Up2Date
+F:\NT106-Final-xm_3\NT106-Final\NT106\NT106\obj\Debug\NT106.exe
+F:\NT106-Final-xm_3\NT106-Final\NT106\NT106\obj\Debug\NT106.pdb
+C:\Users\ADMIN\Downloads\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\Database1.mdf
+C:\Users\ADMIN\Downloads\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\Database1_log.ldf
+C:\Users\ADMIN\Downloads\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\NT106.exe.config
+C:\Users\ADMIN\Downloads\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\NT106.exe
+C:\Users\ADMIN\Downloads\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\NT106.pdb
+C:\Users\ADMIN\Downloads\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ADMIN\Downloads\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ADMIN\Downloads\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\Interop.WMPLib.dll
+C:\Users\ADMIN\Downloads\NT106-Final\NT106-Final\NT106\NT106\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\ADMIN\Downloads\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Downloads\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\Interop.WMPLib.dll
+C:\Users\ADMIN\Downloads\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\ADMIN\Downloads\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.ResolveComReference.cache
+C:\Users\ADMIN\Downloads\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.ChinhSachRiengTu.resources
+C:\Users\ADMIN\Downloads\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Account.resources
+C:\Users\ADMIN\Downloads\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_BXH.resources
+C:\Users\ADMIN\Downloads\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Event.resources
+C:\Users\ADMIN\Downloads\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_QuestionUser.resources
+C:\Users\ADMIN\Downloads\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Guides.resources
+C:\Users\ADMIN\Downloads\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Infor.resources
+C:\Users\ADMIN\Downloads\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Score.resources
+C:\Users\ADMIN\Downloads\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Form_Setting.resources
+C:\Users\ADMIN\Downloads\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.HomePage.resources
+C:\Users\ADMIN\Downloads\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Reset_Pass.resources
+C:\Users\ADMIN\Downloads\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Server.resources
+C:\Users\ADMIN\Downloads\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Sign_In.resources
+C:\Users\ADMIN\Downloads\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Properties.Resources.resources
+C:\Users\ADMIN\Downloads\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.Sign_Up.resources
+C:\Users\ADMIN\Downloads\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.TestCS.resources
+C:\Users\ADMIN\Downloads\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.GenerateResource.cache
+C:\Users\ADMIN\Downloads\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Downloads\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.csproj.Up2Date
+C:\Users\ADMIN\Downloads\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.exe
+C:\Users\ADMIN\Downloads\NT106-Final\NT106-Final\NT106\NT106\obj\Debug\NT106.pdb

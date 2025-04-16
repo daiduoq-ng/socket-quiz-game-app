@@ -1,0 +1,19 @@
+{
+  "questions": [
+    {
+      "question": "Bạn ở đâu?",
+      "choices": [ "Hồ Chí Minh", "Hà Nội", "Đà Nẵng", "Huế" ],
+      "answer": 1
+    },
+    {
+      "question": "Bạn thích màu gì?",
+      "choices": [ "Đỏ", "Xanh", "Lá Cây", "Xanh Dương" ],
+      "answer": 2
+    },
+    {
+      "question": "Bạn có thú cưng không?",
+      "choices": [ "Có", "Không", "Chả Biết", "Quá Đã" ],
+      "answer": 1
+    }
+  ]
+}
