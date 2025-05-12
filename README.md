@@ -11,6 +11,7 @@ Quiz Game App is a multiplayer quiz game developed using C# WinForms with Socket
 - Email validation and password confirmation are required during registration.
 - Registered users can log in using their email and password.
 - Forgot password? The system sends it to the registered email for easy recovery.
+![SignUp](https://imgur.com/a/Xe2ywRD)
 
 
 ### 🎮 Join the Game
