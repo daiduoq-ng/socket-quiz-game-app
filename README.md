@@ -13,6 +13,8 @@ Quiz Game App is a multiplayer quiz game developed using C# WinForms with Socket
 - Forgot password? The system sends it to the registered email for easy recovery.
 
 [![Picture1.png](https://i.postimg.cc/bY40zr1J/Picture1.png)](https://postimg.cc/JtcHx16V)
+[![Picture2.png](https://i.postimg.cc/mkSFNL6x/Picture2.png)](https://postimg.cc/PvPxdjjK)
+[![Picture3.png](https://i.postimg.cc/cHxWtdYt/Picture3.png)](https://postimg.cc/rdP3vXfq)
 
 
 ### 🎮 Join the Game
