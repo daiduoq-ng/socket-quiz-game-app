@@ -20,12 +20,17 @@ Quiz Game App is a multiplayer quiz game developed using C# WinForms with Socket
 ### 🎮 Join the Game
 - Players can join scheduled quiz shows at specific times.
 - The system will send reminders before the quiz show starts.
+  
+[![Picture4.png](https://i.postimg.cc/g0qXPkmx/Picture4.png)](https://postimg.cc/nsrc4xsx)
 
 ### 🧠 Answering Questions:
 - Once the quiz starts, the system sends questions to all players.
 - Each question has a countdown timer. Players must choose one of four answer options within the time limit.
 - Incorrect or unanswered questions will result in elimination.
 - Eliminated players can still view the upcoming questions but cannot participate.
+
+[![Picture5.png](https://i.postimg.cc/jdtRGQC4/Picture5.png)](https://postimg.cc/Bt7WFFTj)
+[![Picture6.png](https://i.postimg.cc/HkKDsQWK/Picture6.png)](https://postimg.cc/NK1Pd2H7)
 
 ### 💰Betting System
 - Players can place bets before each question to increase the thrill and competitiveness.
@@ -38,6 +43,8 @@ Quiz Game App is a multiplayer quiz game developed using C# WinForms with Socket
 - The winner is determined based on the highest score.
 - Rewards are announced and distributed to the winner according to the game rules.
 
+[![Picture8.png](https://i.postimg.cc/cLDYKLPP/Picture8.png)](https://postimg.cc/21Z3Mrkx)
+[![Picture9.png](https://i.postimg.cc/hGkXxzsZ/Picture9.png)](https://postimg.cc/XZgN6vT9)
 
 ## 🛠️ Technologies Used
 - C# WinForms – For building the desktop user interface.
